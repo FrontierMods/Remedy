@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "remedy",
+
+    "name": "Remedy",
+    "description": "Extends the medical system and provides a larger variety of solution to your health and wellness issues",
+
+    "authors": ["Hyperseeker"],
+
+    "category": "items",
+
+    "dependencies": ["dda", "frontier_core"],
+
+    "path": "json"
+  }
+]
