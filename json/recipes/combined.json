@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "medical_bleed_bandage_layered",
+    "result": "medical_bleed_wound_dressing_improvised",
 
     "activity_level": "NO_EXERCISE",
 
@@ -9,12 +9,18 @@
     "subcategory": "CSC_*_NESTED",
 
     "skill_used": "firstaid",
-    "difficulty": 2,
+    "difficulty": 1,
 
     "autolearn": true,
 
     "time": "15 s",
 
-    "components": [[["medical_gauze", 2]], [["bandage", 1]]]
+    "components": [
+      [["medical_gauze", 1]],
+      [
+        ["bandage", 1],
+        ["medical_tape", 1]
+      ]
+    ]
   }
 ]

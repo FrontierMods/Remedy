@@ -1,17 +1,17 @@
 [
   {
-    "id": "medical_bleed_bandage_layered",
+    "id": "medical_bleed_wound_dressing_improvised",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
     "name": {
-      "str": "layered bandage"
+      "str_sp": "improvised wound dressing"
     },
-    "description": "A sterile cloth bandage reinforced with a strip of medical gauze.  Used for bleed control and protecting wounds from aggravation to help them heal faster.  The medical gauze applies additional pressure to the wound, improving bleed control properties slightly.",
+    "description": "A sterile gauze pad reinforced by a length of gauze bandage.  Used for bleed control and protecting wounds from aggravation to help them heal faster.  The bandage helps apply additional pressure to the wound, improving bleed control properties.  Only somewhat less effective than commercial options.",
 
-    "//weight": "weight of bandage + medical gauze",
+    "//weight": "weight of bandage + gauze pad",
     "weight": "13 g",
-    "//volume": "volume of bandage + medical gauze",
+    "//volume": "volume of bandage + gauze pad",
     "volume": "33 ml",
 
     "material": ["cotton"],
