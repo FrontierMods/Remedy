@@ -22,5 +22,23 @@
         ["medical_tape", 1]
       ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "medical_bleed_bandage_pressure_improvised",
+
+    "activity_level": "NO_EXERCISE",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "firstaid",
+    "difficulty": 3,
+
+    "autolearn": true,
+
+    "time": "15 s",
+
+    "components": [[["medical_gauze", 1]], [["medical_tape", 6]]]
   }
 ]
