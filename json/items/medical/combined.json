@@ -30,7 +30,7 @@
       "//bleed": "same bleed control power as a regular bandage in the base game",
       "bleed": 14,
 
-      "move_cost": 4500
+      "move_cost": 3000
     },
 
     "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
