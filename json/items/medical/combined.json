@@ -1,0 +1,40 @@
+[
+  {
+    "id": "medical_bleed_bandage_layered",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str": "layered bandage"
+    },
+    "description": "A sterile cloth bandage reinforced with a strip of medical gauze.  Used for bleed control and protecting wounds from aggravation to help them heal faster.  The medical gauze applies additional pressure to the wound, improving bleed control properties slightly.",
+
+    "//weight": "weight of bandage + medical gauze",
+    "weight": "13 g",
+    "//volume": "volume of bandage + medical gauze",
+    "volume": "33 ml",
+
+    "material": ["cotton"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "charges": 1,
+    "stack_size": 9,
+
+    "use_action": {
+      "type": "heal",
+
+      "//bandages_power": "same bandage power (i.e., healing effect on the wound) as a regular bandage",
+      "bandages_power": 4,
+      "bleed": 18,
+
+      "move_cost": 4500
+    },
+
+    "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
+
+    "price": "2 USD",
+    "price_postapoc": "2 USD"
+  }
+]
