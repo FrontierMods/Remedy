@@ -1,0 +1,435 @@
+[
+  {
+    "id": "tourniquet_upper",
+    "type": "ARMOR",
+
+    "//sources": [
+      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html",
+      ["https://www.youtube.com/watch?v=5QIg0XIsCRo", "application duration"]
+    ],
+
+    "name": {
+      "str": "NAR C-A-T (arm)",
+      "str_pl": "NAR C-A-Ts (arm)"
+    },
+    "description": "Combat Application Tourniquet, produced by North American Rescue.  This windlass tourniquet officially in use with the U.S. Army is intended for stopping hemorrage in battlefield and pre-hospital conditions.  While not easy to use, it may save your life.  The strap is currently wide enough for use on an average adult's arm.  Activate to adjust size and location.",
+
+    "weight": "86 g",
+    "//dimensions": {
+      "length": "6.5 in",
+      "width": "2.4 in",
+      "height": "1.5 in",
+      "raw": "384 ml",
+      "trim": 0.525
+    },
+    "volume": "182 ml",
+    "longest_side": "165 mm",
+
+    "material": ["nylon", "plastic"],
+    "material_thickness": 1,
+    "warmth": 0,
+
+    "symbol": "{",
+    "color": "red",
+    "looks_like": "armguard_hard",
+
+    "sided": true,
+
+    "armor": [
+      {
+        "encumbrance": 70,
+
+        "coverage": 2,
+        "covers": ["arm_l", "arm_r"]
+      }
+    ],
+
+    "use_action": {
+      "type": "transform",
+      "target": "tourniquet_upper_XL",
+
+      "menu_text": "Adjust",
+
+      "msg": "You adjust the tourniquet."
+    },
+
+    "flags": ["WATER_FRIENDLY", "OUTER", "TOURNIQUET"],
+
+    "price": "3160 cent",
+    "price_postapoc": "2 USD"
+  },
+  {
+    "id": "tourniquet_upper_XL",
+    "copy-from": "tourniquet_upper",
+    "type": "ARMOR",
+
+    "name": {
+      "str": "NAR C-A-T (arm XL)",
+      "str_pl": "NAR C-A-Ts (arm XL)"
+    },
+    "description": "Combat Application Tourniquet, produced by North American Rescue.  This windlass tourniquet officially in use with the U.S. Army is intended for stopping hemorrage in battlefield and pre-hospital conditions.  While not easy to use, it may save your life.  The strap is currently close to its widest possible length, intended for use on an extra-large arm.  Activate to adjust size and location.",
+
+    "armor": [
+      {
+        "encumbrance": 70,
+
+        "//coverage": "lower coverage on a larger limb",
+        "coverage": 1,
+        "covers": ["arm_l", "arm_r"]
+      }
+    ],
+
+    "use_action": {
+      "type": "transform",
+      "target": "tourniquet_upper_XS",
+
+      "menu_text": "Adjust",
+
+      "msg": "You adjust the tourniquet."
+    }
+  },
+  {
+    "id": "tourniquet_upper_XS",
+    "copy-from": "tourniquet_upper",
+    "type": "ARMOR",
+
+    "name": {
+      "str": "NAR C-A-T (arm XS)",
+      "str_pl": "NAR C-A-Ts (arm XS)"
+    },
+    "description": "Combat Application Tourniquet, produced by North American Rescue.  This windlass tourniquet officially in use with the U.S. Army is intended for stopping hemorrage in battlefield and pre-hospital conditions.  While not easy to use, it may save your life.  The strap is currently wide enough for use on an child's arm.  Activate to adjust size and location.",
+
+    "armor": [
+      {
+        "encumbrance": 70,
+
+        "//coverage": "higher coverage on a smaller limb",
+        "coverage": 4,
+        "covers": ["arm_l", "arm_r"]
+      }
+    ],
+
+    "use_action": {
+      "type": "transform",
+      "target": "tourniquet_lower",
+
+      "menu_text": "Adjust",
+
+      "msg": "You adjust the tourniquet."
+    }
+  },
+  {
+    "id": "tourniquet_lower",
+    "copy-from": "tourniquet_lower",
+    "type": "ARMOR",
+
+    "//sources": [
+      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
+    ],
+
+    "name": {
+      "str": "NAR C-A-T (leg)",
+      "str_pl": "NAR C-A-Ts (leg)"
+    },
+    "description": "Combat Application Tourniquet, produced by North American Rescue.  This windlass tourniquet officially in use with the U.S. Army is intended for stopping hemorrage in battlefield and pre-hospital conditions.  While not easy to use, it may save your life.  The strap is currently wide enough for use on an average adult's leg.  Activate to adjust size and location.",
+
+    "armor": [
+      {
+        "encumbrance": 70,
+
+        "coverage": 2,
+        "covers": ["arm_l", "arm_r"]
+      }
+    ],
+
+    "use_action": {
+      "type": "transform",
+      "target": "tourniquet_lower_XL",
+
+      "menu_text": "Adjust",
+
+      "msg": "You adjust the tourniquet."
+    }
+  },
+  {
+    "id": "tourniquet_lower_XL",
+    "copy-from": "tourniquet_lower_XL",
+    "type": "ARMOR",
+
+    "//sources": [
+      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
+    ],
+
+    "name": {
+      "str": "NAR C-A-T (leg XL)",
+      "str_pl": "NAR C-A-Ts (leg XL)"
+    },
+    "description": "Combat Application Tourniquet, produced by North American Rescue.  This windlass tourniquet officially in use with the U.S. Army is intended for stopping hemorrage in battlefield and pre-hospital conditions.  While not easy to use, it may save your life.  The strap is currently at its widest possible length, intended for use on an extra-large leg.  Activate to adjust size and location.",
+
+    "armor": [
+      {
+        "encumbrance": 70,
+
+        "//coverage": "lower coverage on a larger limb",
+        "coverage": 1,
+        "covers": ["arm_l", "arm_r"]
+      }
+    ],
+
+    "use_action": {
+      "type": "transform",
+      "target": "tourniquet_upper",
+
+      "menu_text": "Adjust",
+
+      "msg": "You adjust the tourniquet."
+    }
+  },
+
+  {
+    "id": "bandages",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://www.sylprotec.com/en/bandages-gauze-pads/3024-non-sterile-rolls-of-gauze-bandage-4-in-x-12-ft-12-box.html",
+      [
+        "https://www.shopwoundcare.com/p-kendall-dermacea-sterile-stretch-bandage-roll.html",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "Dukal or Kerlix rolls would make for good smaller alternatives"
+    ],
+
+    "name": {
+      "str": "gauze bandage"
+    },
+    "description": "A roll of non-sterile gauze bandage, 4″ × 12 yds (7.5 cm × 3.6 m), produced by Cardinal Health under the Dermacea brand.  Used primarily to keep other, more potent wound dressing in place and under pressure, it can itself be used to stop light bleeding in a pinch.",
+
+    "//weight": [
+      "we derive weight of a single roll from total weight of the 12-roll paper box (0.3 lbs = 136.08 g)",
+      "the box's weight is not accounted for"
+    ],
+    "weight": "11 g",
+    "//dimensions": {
+      "length": "4 in",
+      "diameter": "1.375 in",
+      "raw": "97.33 ml",
+      "trim": 0,
+      "notes": ["height is half the height of the 6-by-2-rolls box"]
+    },
+    "volume": "97 ml",
+    "longest_side": "102 mm",
+
+    "material": ["cotton"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "//charges": "presuming 1 yard of bandage gives enough support for a single wound dressing",
+    "charges": 12,
+    "stack_size": 6,
+
+    "use_action": {
+      "type": "heal",
+
+      "bandages_power": 2,
+      "bleed": 7,
+
+      "move_cost": 1500
+    },
+
+    "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
+
+    "price": "145 cent",
+    "price_postapoc": "10 cent"
+  },
+  {
+    "id": "adhesive_bandages",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://www.cardinalhealth.com/en/product-solutions/medical/skin-and-wound-management/traditional-wound-care/bandages/adhesive-bandages/curity-plastic-bandages.html",
+      [
+        "https://www.medequipdepot.com/products/44115-cardinal-health-adhesive-bandage-3-4-x-3-plastic-50-bx-72-bx-cs-45-cs-plt-continental-us-only-sold-as-cs.html",
+        "price"
+      ],
+      ["https://en.wikipedia.org/wiki/Polyvinyl_chloride", "material density"]
+    ],
+
+    "name": {
+      "str": "adhesive bandage"
+    },
+    "description": "A tiny piece of adhesive bandage with an even smaller gauze pad, produced by Cardinal Health under the Curity brand.  Intended for use with small punctures and cuts, it's ineffective against any serious bleeding, but still better than no dressing at all.",
+
+    "//weight": [
+      "based on an estimation, given material and dimensions",
+      "presumed material: polyvinyl chloride",
+      "average density of PVC: 1.4 g/cm3",
+      "volume after trim (18.392 μl) * 1.4 g/cm3 = 25.75 mg ≈ 26 mg"
+    ],
+    "weight": "26 mg",
+    "//dimensions": {
+      "length": "3 in",
+      "width": "1 in",
+      "height": "0.1 mm",
+      "raw": "19.36 μl",
+      "trim": 0.05,
+      "notes": [
+        "height is presumed",
+        "the result is rounded up to 1 ml, because 0.G stable does not support higher-resolution volume values"
+      ]
+    },
+    "volume": "1 ml",
+    "longest_side": "76 mm",
+
+    "//material": "actually vinyl, but it doesn't yet exist in 0.G",
+    "material": ["plastic"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "use_action": {
+      "type": "heal",
+
+      "bandages_power": 1,
+      "bleed": 2,
+
+      "move_cost": 450
+    },
+
+    "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
+
+    "//price": [
+      "108 USD for a case, 72 boxes / case, 50 bandages / box",
+      "108 / 72 = $1.44 / 50 = $0.0288 ≈ 3¢"
+    ],
+    "price": "3 cent",
+    "price_postapoc": "1 cent"
+  },
+
+  {
+    "id": "medical_tape",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "ammo_type": "components",
+
+    "//sources": [
+      "https://www.cardinalhealth.com/en/product-solutions/medical/skin-and-wound-management/traditional-wound-care/medical-tapes-and-adhesives/kendall-hypoallergenic-cloth-tape.html",
+      [
+        "https://wellbefore.com/products/cardinal-health-kendall-silk-tape",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      [
+        "calculations",
+        "https://chat.openai.com/share/663c5ee9-008f-4c76-9f63-e76204be5fe4"
+      ],
+      [
+        "presumptions are as follows",
+        {
+          "tape": {
+            "thickness": "0.2 mm",
+            "width": "2 in",
+            "length": "10 yd",
+            "density": "0.94 g/cm3"
+          },
+          "tube": {
+            "diameter": "1 in",
+            "thickness": "0.1 mm",
+            "width": "2 in",
+            "density": "0.8 g/cm3"
+          }
+        }
+      ]
+    ],
+
+    "name": {
+      "str_sp": "medical tape"
+    },
+    "description": "A roll of hypoallergenic cloth medical tape, produced by Cardinal Health under the Kendall brand.  Used to hold an absorbent pad or hemostatic wound dressing in place and under pressure.",
+
+    "//weight": "weight of the entire roll",
+    "weight": "44 g",
+    "volume": "47 ml",
+    "longest_side": "48 mm",
+
+    "material": ["cotton"],
+
+    "symbol": "=",
+    "color": "white",
+
+    "count": 35,
+
+    "price": "363 cent",
+    "price_postapoc": "10 cent"
+  },
+
+  {
+    "id": "medical_gauze",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "ammo_type": "components",
+
+    "//sources": [
+      "https://www.buyemp.com/product/curaplex-gauze-pads/group001457"
+    ],
+
+    "//notes": ["4″×4″ sterile swabs"],
+
+    "name": {
+      "str": "medical gauze pad"
+    },
+    "description": "A sterile 4″×4″ gauze pad, produced by Bound Tree Medical under the Curaplex brand.  Intended to be secured in place over a bleeding wound, using a length of medical tape or a bandage, to stem the bleeding.  Cannot be used on its own, since in doesn't adhere to the skin for medical reasons.",
+
+    "//weight": "basic weight (density; 13.2 g/m3) × area of swab (4 in^2 = 16 in^2) × ply (layers; 12)",
+    "weight": "1635 mg",
+    "//dimensions": {
+      "length": "4 in",
+      "width": "4 in",
+      "height": "0.206 mm",
+      "raw": "2 ml",
+      "trim": 0,
+      "notes": [
+        "height is calculated as follows",
+        {
+          "basic_weight": "13.2 g/m2",
+          "ply": 12,
+          "density_cotton": "1.54 g/cm3",
+          "density_factor": "0.5",
+
+          "weight_per_m2": "basic_weight * ply",
+          "weight_per_cm2": "weight_per_m2 / 10000",
+          "density_per_ply": "density_cotton * density_factor",
+
+          "thickness": "weight_per_cm2 / density_per_ply",
+
+          "notes": [
+            "weight_per_m2 is converted to weight_per_cm2 (g/cm2) in order to calculate over density (g/cm3)"
+          ]
+        }
+      ]
+    },
+    "volume": "2 ml",
+    "longest_side": "102 mm",
+
+    "material": ["cotton"],
+
+    "symbol": ",",
+    "color": "white",
+
+    "//use_action": [
+      "with nothing to hold the pad in place, it can't be used reliably as wound dressing",
+      "good-quality pads avoid sticking to the skin in order to not disturb the wound when the first-aid bandage is pulled away"
+    ],
+
+    "//price": "$3.50 / 100 pads in a box = 3.5¢ ≈ 4¢",
+    "price": "4 cent",
+    "price_postapoc": "1 cent"
+  }
+]
