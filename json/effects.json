@@ -13,10 +13,10 @@
       "You feel slight pulsing pain in your head.",
       "The pain in your head is starting to affect your thinking.",
       "You can barely keep your focus due to the pain in your head.",
-      "You are unable to focus.  "
+      "You are unable to focus.  Your head is pounding."
     ],
 
-    "apply_message": "Your head start pulsing with pain.",
+    "apply_message": "Your head starts pulsing with pain.",
     "remove_message": "You notice that your brain no longer hurts.",
 
     "rating": "bad",
