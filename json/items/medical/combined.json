@@ -37,5 +37,42 @@
 
     "price": "2 USD",
     "price_postapoc": "2 USD"
+  },
+  {
+    "id": "medical_bleed_bandage_pressure_improvised",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str_sp": "improvised pressure bandage"
+    },
+    "description": "A sterile gauze pad held firmly in place by medical tape wrapping around the limb.  The application of strong pressure, while generally not recommended with medical tape, aids in stemming severe bleeding in an emergency.  Not quite as effective as commercial options, this may save your life in a survival situation.",
+
+    "//weight": "weight of 6× 5-in. strips of medical tape + a gauze pad",
+    "weight": "45 g",
+    "//volume": "volume of 6× 5-in. strips of medical tape + a gauze pad",
+    "volume": "10 ml",
+
+    "material": ["cotton"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "charges": 1,
+    "stack_size": 9,
+
+    "use_action": {
+      "type": "heal",
+
+      "bandages_power": 5,
+      "bleed": 18,
+
+      "move_cost": 3000
+    },
+
+    "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
+
+    "price": "3 USD",
+    "price_postapoc": "3 USD"
   }
 ]
