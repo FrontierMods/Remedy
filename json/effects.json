@@ -39,5 +39,46 @@
       "int_mod": [-1.43, -0.67],
       "per_mod": [-1, -0.5]
     }
+  },
+  {
+    "id": "effect_health_muscle_soreness",
+    "type": "effect_type",
+
+    "name": [
+      "Muscle Soreness",
+      "Muscle Strain",
+      "Muscle Aching",
+      "Muscle Agony"
+    ],
+    "desc": [
+      "Your muscles feel a litte sore.",
+      "The muscle tension starts to affect your range of motion.",
+      "The pain in your muscles is distracting.",
+      "Your muscles ache unbearably."
+    ],
+
+    "apply_message": "The muscles in your body start to hurt.",
+    "remove_message": "Your muscles stop hurting.",
+
+    "rating": "bad",
+
+    "max_intensity": 4,
+    "show_intensity": false,
+
+    "max_duration": "24 hours",
+    "int_dur_factor": "6 hours",
+
+    "base_mods": {
+      "pain_min": [1],
+      "pain_chance": [-50],
+      "pain_chance_bot": [1000]
+    },
+
+    "scaling_mods": {
+      "pain_max_val": [5],
+      "pain_chance": [150],
+      "str_mod": [-1.43, -0.67],
+      "dex_mod": [-0.33, -0.25]
+    }
   }
 ]
