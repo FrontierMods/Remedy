@@ -364,7 +364,12 @@
     "symbol": "=",
     "color": "white",
 
-    "count": 35,
+    "//count": [
+      "the average application of medical tape appears to be ~5 in.",
+      "https://www.youtube.com/watch?v=Zv3jktBvO8o",
+      "10 yd = 360 in."
+    ],
+    "count": 72,
 
     "price": "363 cent",
     "price_postapoc": "10 cent"
