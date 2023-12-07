@@ -436,5 +436,73 @@
     "//price": "$3.50 / 100 pads in a box = 3.5¢ ≈ 4¢",
     "price": "4 cent",
     "price_postapoc": "1 cent"
+  },
+  {
+    "id": "quikclot",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://www.celoxmedical.com/cx-product/celox-granules/",
+      [
+        "https://www.chinookmed.com/05164/celox-hemostatic-15-gram.html",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "hemostatic granules"
+    },
+    "description": "A coarse powder of yellow-ish granules, produced by Celox.  When used on a wound, significantly stems any bleeding by sealing the wound under a gel-like substance.  The hemostatic properties of the granules come from the contained chitosan: a polysaccharide produced from crustacean chitin.  However, the application of the granules have not caused a single allergic reaction in almost 20 years that the hemostatic has been used.",
+
+    "weight": "15 g",
+    "//volume": [
+      "we derive the volume of the 15 grams of granules from the volume difference between a full and an empty sachet (see item used as `container`)",
+      {
+        "length": "5.24 in",
+        "width": "3.58 in",
+        "height": "0.2 mm",
+        "raw": "2.42 ml",
+        "trim": 0,
+        "result": "2.42 ml"
+      },
+      {
+        "length": "5.24 in",
+        "width": "3.58 in",
+        "height": "0.43 in",
+        "raw": "132.19 ml",
+        "trim": 0.55,
+        "result": "59.49 ml"
+      },
+      "59.49 - 2.42 = 57.07 ml ≈ 57 ml"
+    ],
+    "volume": "57 ml",
+
+    "material": ["powder"],
+
+    "symbol": "!",
+    "color": "light_gray",
+
+    "container": "package_hemostatic_celox",
+    "//charges": "instructions call to apply the entire 15-gram package's worth of hemostatic granules to the wound",
+    "stack_size": 10,
+
+    "use_action": {
+      "type": "heal",
+
+      "bleed": 18,
+
+      "move_cost": 1000
+    },
+
+    "flags": [
+      "NO_INGEST",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ],
+
+    "price": "17 USD",
+    "price_postapoc": "3 USD"
   }
 ]

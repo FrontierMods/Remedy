@@ -1,0 +1,69 @@
+[
+  {
+    "id": "package_hemostatic_celox",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      [
+        "https://www.amazon.com/Celox-Hemostatic-Granules-15g-Packet/dp/B003B76NVO",
+        "dimensions",
+        "weight"
+      ]
+    ],
+
+    "name": {
+      "str": "hemostatic powder sachet"
+    },
+    "description": "A tiny dull-green plastic tear-open packet.  Among the yellow text, the brand name Celox and \"hemostatic granules\" stand out immediately.  On the back, there are instructions for application of the hemostatic it contains.",
+
+    "//weight": [
+      "weight of the entire package (with powder) is listed as 0.634 oz = 17.974 g",
+      "15 g is the weight of the powder",
+      "therefore, 2.974 g ≈ 3 g is the weight of the package separately"
+    ],
+    "weight": "3 g",
+    "//dimensions": {
+      "length": "5.24 in",
+      "width": "3.58 in",
+      "height": "0.2 mm",
+      "raw": "2.42 ml",
+      "trim": 0,
+      "notes": [
+        "height (depth) estimated based on material used",
+        "height used in source is likely that of the thickest point of the filled bag"
+      ]
+    },
+    "volume": "2 ml",
+    "longest_side": "133 mm",
+
+    "material": ["plastic"],
+
+    "symbol": ")",
+    "color": "light_gray",
+    "looks_like": "bag_zipper",
+
+    "to_hit": -2,
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "max_contains_volume": "510 ml",
+        "//max_contains_weight": "even though used for 15 g of powder, it looks like it can hold a bit more than that",
+        "max_contains_weight": "25 g",
+
+        "airtight": true,
+        "watertight": true,
+        "sealed_data": {
+          "spoil_multiplier": 0
+        },
+
+        "moves": 50
+      }
+    ],
+
+    "price": "1 cent",
+    "price_postapoc": "0 cent"
+  }
+]
