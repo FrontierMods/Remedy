@@ -80,5 +80,46 @@
       "str_mod": [-1.43, -0.67],
       "dex_mod": [-0.33, -0.25]
     }
+  },
+  {
+    "id": "effect_health_joint_stiffness",
+    "type": "effect_type",
+
+    "name": [
+      "Joint Tightness",
+      "Joint Stiffness",
+      "Joint Rigidity",
+      "Joint Lock"
+    ],
+    "desc": [
+      "Your joints feel a little tight.",
+      "It is as if your joints are starting to resist you.",
+      "It has become difficult to move your body.",
+      "You're almost unable to move."
+    ],
+
+    "apply_message": "You can feel your joints tightening.",
+    "remove_message": "Your joints no longer feel restained.",
+
+    "rating": "bad",
+
+    "max_intensity": 4,
+    "show_intensity": false,
+
+    "max_duration": "24 hours",
+    "int_dur_factor": "6 hours",
+
+    "base_mods": {
+      "pain_min": [1],
+      "pain_chance": [-50],
+      "pain_chance_bot": [1000]
+    },
+
+    "scaling_mods": {
+      "pain_max_val": [5],
+      "pain_chance": [150],
+      "dex_mod": [-1.43, -0.67],
+      "str_mod": [-0.33, -0.25]
+    }
   }
 ]
