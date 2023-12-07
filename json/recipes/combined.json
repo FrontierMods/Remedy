@@ -37,7 +37,7 @@
 
     "autolearn": true,
 
-    "time": "15 s",
+    "time": "25 s",
 
     "components": [[["medical_gauze", 1]], [["medical_tape", 6]]]
   }
