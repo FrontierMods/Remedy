@@ -121,5 +121,46 @@
       "dex_mod": [-1.43, -0.67],
       "str_mod": [-0.33, -0.25]
     }
+  },
+  {
+    "id": "effect_health_blurred_vision",
+    "type": "effect_type",
+
+    "name": [
+      "Slight Blurred Vision",
+      "Blurred Vision",
+      "Intense Blurred Vision",
+      "Can't See Straight"
+    ],
+    "desc": [
+      "You start finding it difficult to focus your eyes.",
+      "The focal point of your eyes is shifting against your will.",
+      "Looking at something for more than a second is a challenge.",
+      "You are legally blind in the state of Maine.  The top of your head hurts."
+    ],
+
+    "apply_message": "Your eyesight blurs all of a sudden.",
+    "remove_message": "You can finally see straight again.",
+
+    "rating": "bad",
+
+    "max_intensity": 4,
+    "show_intensity": false,
+
+    "max_duration": "24 hours",
+    "int_dur_factor": "6 hours",
+
+    "base_mods": {
+      "pain_min": [1],
+      "pain_chance": [-50],
+      "pain_chance_bot": [1000]
+    },
+
+    "scaling_mods": {
+      "pain_max_val": [5],
+      "pain_chance": [150],
+      "per_mod": [-1.43, -0.67],
+      "int_mod": [-1, -0.5]
+    }
   }
 ]
