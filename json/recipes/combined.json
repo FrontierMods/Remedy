@@ -40,5 +40,31 @@
     "time": "25 s",
 
     "components": [[["medical_gauze", 1]], [["medical_tape", 6]]]
+  },
+  {
+    "type": "recipe",
+    "result": "medical_bleed_wound_dressing_hemostatic_improvised",
+
+    "activity_level": "NO_EXERCISE",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "firstaid",
+    "difficulty": 4,
+    "result_mult": 2,
+
+    "autolearn": true,
+
+    "time": "40 s",
+
+    "components": [
+      [["medical_gauze", 2]],
+      [
+        ["bandage", 2],
+        ["medical_tape", 4]
+      ],
+      [["quikclot", 1]]
+    ]
   }
 ]
