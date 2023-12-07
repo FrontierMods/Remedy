@@ -19,7 +19,6 @@
     "symbol": "!",
     "color": "white",
 
-    "charges": 1,
     "stack_size": 9,
 
     "use_action": {
@@ -57,7 +56,6 @@
     "symbol": "!",
     "color": "white",
 
-    "charges": 1,
     "stack_size": 9,
 
     "use_action": {
