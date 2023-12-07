@@ -1,6 +1,6 @@
 [
   {
-    "id": "medical_bleed_wound_dressing_improvised",
+    "id": "wound_dressing_improvised",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -37,7 +37,7 @@
     "price_postapoc": "2 USD"
   },
   {
-    "id": "medical_bleed_bandage_pressure_improvised",
+    "id": "bandage_pressure_improvised",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -73,7 +73,7 @@
     "price_postapoc": "3 USD"
   },
   {
-    "id": "medical_bleed_wound_dressing_hemostatic_improvised",
+    "id": "wound_dressing_hemostatic_improvised",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 

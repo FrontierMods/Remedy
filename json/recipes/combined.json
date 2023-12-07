@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "medical_bleed_wound_dressing_improvised",
+    "result": "wound_dressing_improvised",
 
     "activity_level": "NO_EXERCISE",
 
@@ -25,7 +25,7 @@
   },
   {
     "type": "recipe",
-    "result": "medical_bleed_bandage_pressure_improvised",
+    "result": "bandage_pressure_improvised",
 
     "activity_level": "NO_EXERCISE",
 
@@ -43,7 +43,7 @@
   },
   {
     "type": "recipe",
-    "result": "medical_bleed_wound_dressing_hemostatic_improvised",
+    "result": "wound_dressing_hemostatic_improvised",
 
     "activity_level": "NO_EXERCISE",
 
