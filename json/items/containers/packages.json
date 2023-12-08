@@ -65,5 +65,65 @@
 
     "price": "1 cent",
     "price_postapoc": "0 cent"
+  },
+  {
+    "id": "package_trauma_dressing_nar",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      "https://www.narescue.com/military-products/march/flat-emergency-trauma-dressing-etd.html"
+    ],
+
+    "name": {
+      "str": "trauma dressing packet"
+    },
+    "description": "A small military-green plastic tear-open packet.  The white text says \"NAR Emergency Trauma Dressing (ETD™) 4″\"; underneath, on black background, next to a logo of an eagle flying over a medical cross, it says \"North American Rescue\".  On the back, there are instructions for application of the trauma dressing it contains.",
+
+    "//weight": "guessed based on size and previously-filed packages",
+    "weight": "11 g",
+    "//dimensions": {
+      "length": "7.4 in",
+      "width": "4.75 in",
+      "height": "0.2 mm",
+      "raw": "4.54 ml",
+      "trim": 0,
+      "notes": [
+        "length and width acquired from visual reference",
+        "height assumed"
+      ]
+    },
+    "volume": "5 ml",
+    "longest_side": "188 mm",
+
+    "material": ["plastic"],
+
+    "symbol": ")",
+    "color": "light_gray",
+    "looks_like": "bag_zipper",
+
+    "to_hit": -1,
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "//max_contains_volume": "slightly more than the trauma dressing it's meant for, since the packet is vacuum-fitted to the dressing, but also can't be resealed to full height after being torn open",
+        "max_contains_volume": "175 ml",
+        "//max_contains_weight": "even though used for ~75 g of trauma dressing, it looks like it can hold a bit more than that",
+        "max_contains_weight": "100 g",
+
+        "airtight": true,
+        "watertight": true,
+        "sealed_data": {
+          "spoil_multiplier": 0
+        },
+
+        "moves": 200
+      }
+    ],
+
+    "price": "1 cent",
+    "price_postapoc": "0 cent"
   }
 ]
