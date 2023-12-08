@@ -505,5 +505,51 @@
 
     "price": "17 USD",
     "price_postapoc": "3 USD"
+  },
+
+  {
+    "id": "trauma_dressing_nar",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://www.narescue.com/military-products/march/flat-emergency-trauma-dressing-etd.html"
+    ],
+
+    "name": {
+      "str": "NAR 4″ trauma dressing"
+    },
+    "description": "A brown stretchy bandage with a large gauze pad sewn to it, 4 inches wide.  Intended to control severe bleeding, it can soak up a large amount of liquid, as well as apply constant pressure to the wound, thus aiding clotting rate.  Lightweight and flat-packed to optimize volume inside an emergency response kit, it's meant to be a part of a swift-response kit, such as those carried by EMS and tactical medics.",
+
+    "weight": "74 g",
+    "//dimensions": {
+      "length": "4.25 in",
+      "width": "2.75 in",
+      "height": "0.875 in",
+      "raw": "167.58 ml",
+      "trim": 0.25
+    },
+    "volume": "126 ml",
+    "longest_side": "108 mm",
+
+    "material": ["cotton"],
+
+    "symbol": ",",
+    "color": "white",
+
+    "container": "package_trauma_dressing_nar",
+
+    "use_action": {
+      "type": "heal",
+
+      "bandages_power": 7,
+      "bleed": 16,
+
+      "//move_cost": "quicker to apply due to simply construction and Velcro locking mechanism",
+      "move_cost": 900
+    },
+
+    "price": "639 cent",
+    "price_postapoc": "20 cent"
   }
 ]
