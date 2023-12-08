@@ -448,6 +448,10 @@
       [
         "https://www.chinookmed.com/05164/celox-hemostatic-15-gram.html",
         "price"
+      ],
+      [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7649490/",
+        "powder density"
       ]
     ],
 
@@ -458,26 +462,10 @@
 
     "weight": "15 g",
     "//volume": [
-      "we derive the volume of the 15 grams of granules from the volume difference between a full and an empty sachet (see item used as `container`)",
-      {
-        "length": "5.24 in",
-        "width": "3.58 in",
-        "height": "0.2 mm",
-        "raw": "2.42 ml",
-        "trim": 0,
-        "result": "2.42 ml"
-      },
-      {
-        "length": "5.24 in",
-        "width": "3.58 in",
-        "height": "0.43 in",
-        "raw": "132.19 ml",
-        "trim": 0.55,
-        "result": "59.49 ml"
-      },
-      "59.49 - 2.42 = 57.07 ml ≈ 57 ml"
+      "we calculate volume based on the powder's weight and density",
+      "15 g / 0.56 g/cm3 = 26.8 ml ≈ 27 ml"
     ],
-    "volume": "57 ml",
+    "volume": "27 ml",
 
     "material": ["powder"],
 
