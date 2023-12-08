@@ -26,7 +26,7 @@
 
       "//bandages_power": "same bandage power (i.e., healing effect on the wound) as a regular bandage in the base game",
       "bandages_power": 4,
-      "bleed": 12,
+      "bleed": 11,
 
       "move_cost": 1200
     },
@@ -62,7 +62,7 @@
       "type": "heal",
 
       "bandages_power": 5,
-      "bleed": 15,
+      "bleed": 13,
 
       "move_cost": 2100
     },
@@ -98,7 +98,7 @@
       "type": "heal",
 
       "bandages_power": 5,
-      "bleed": 21,
+      "bleed": 17,
 
       "move_cost": 1200
     },
