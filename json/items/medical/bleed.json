@@ -392,7 +392,7 @@
     },
     "description": "A sterile 4″×4″ gauze pad, produced by Bound Tree Medical under the Curaplex brand.  Intended to be secured in place over a bleeding wound, using a length of medical tape or a bandage, to stem the bleeding.  Cannot be used on its own, since in doesn't adhere to the skin for medical reasons.",
 
-    "//weight": "basic weight (density; 13.2 g/m3) × area of swab (4 in^2 = 16 in^2) × ply (layers; 12)",
+    "//weight": "basic weight (density; 13.2 g/m3) × area of swab (4 in^2 = 16 in2) × ply (layers; 12)",
     "weight": "1635 mg",
     "//dimensions": {
       "length": "4 in",
