@@ -236,7 +236,7 @@
       "type": "heal",
 
       "bandages_power": 2,
-      "bleed": 7,
+      "bleed": 5,
 
       "move_cost": 1500
     },
@@ -296,7 +296,7 @@
       "type": "heal",
 
       "bandages_power": 1,
-      "bleed": 2,
+      "bleed": 1,
 
       "move_cost": 450
     },
@@ -479,7 +479,7 @@
     "use_action": {
       "type": "heal",
 
-      "bleed": 18,
+      "bleed": 14,
 
       "move_cost": 1000
     },
@@ -533,7 +533,7 @@
       "type": "heal",
 
       "bandages_power": 7,
-      "bleed": 16,
+      "bleed": 13,
 
       "//move_cost": "quicker to apply due to simply construction and Velcro locking mechanism",
       "move_cost": 900
@@ -580,7 +580,7 @@
       "type": "heal",
 
       "bandages_power": 1,
-      "bleed": 17,
+      "bleed": 16,
 
       "move_cost": 1900
     },
