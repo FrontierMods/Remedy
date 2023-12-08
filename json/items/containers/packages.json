@@ -49,7 +49,7 @@
       {
         "pocket_type": "CONTAINER",
 
-        "max_contains_volume": "510 ml",
+        "max_contains_volume": "35 ml",
         "//max_contains_weight": "even though used for 15 g of powder, it looks like it can hold a bit more than that",
         "max_contains_weight": "25 g",
 
