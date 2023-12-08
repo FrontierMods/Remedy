@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "wound_dressing_improvised",
+    "result": "trauma_dressing_improvised",
 
     "activity_level": "NO_EXERCISE",
 
@@ -43,7 +43,7 @@
   },
   {
     "type": "recipe",
-    "result": "wound_dressing_hemostatic_improvised",
+    "result": "trauma_dressing_hemostatic_improvised",
 
     "activity_level": "NO_EXERCISE",
 
