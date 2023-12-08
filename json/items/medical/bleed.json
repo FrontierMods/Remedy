@@ -553,5 +553,51 @@
 
     "price": "639 cent",
     "price_postapoc": "20 cent"
+  },
+  {
+    "id": "trauma_dressing_hemostatic_nar",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://www.narescue.com/quikclot-bleeding-control-dressings.html"
+    ],
+
+    "name": {
+      "str": "QuikClot hemostatic dressing"
+    },
+    "description": "A thin white gauze rolled up, 3 inches wide.  Intended to be wrapped around a shallow wound, or packed into a deep wound, in order to promote clotting and stem bleeding.  Impregnated with kaolin, this wound dressing accelerates natural clotting, making controlling even severe bleeding much easier.",
+
+    "weight": "14 g",
+    "//dimensions": {
+      "length": "4 ft",
+      "width": "3 in",
+      "height": "0.1 mm",
+      "raw": "9.29 ml",
+      "trim": 0.1,
+      "notes": ["height (thickness) presumed"]
+    },
+    "volume": "8 ml",
+    "//longest_side": "assumes the dressing is folded into a roll when in the inventory",
+    "longest_side": "76 mm",
+
+    "material": ["cotton"],
+
+    "symbol": ",",
+    "color": "white",
+
+    "container": "package_trauma_dressing_hemostatic_quikclot",
+
+    "use_action": {
+      "type": "heal",
+
+      "bandages_power": 1,
+      "bleed": 17,
+
+      "move_cost": 1900
+    },
+
+    "price": "22 USD",
+    "price_postapoc": "25 cent"
   }
 ]

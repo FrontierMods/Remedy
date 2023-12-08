@@ -125,5 +125,64 @@
 
     "price": "1 cent",
     "price_postapoc": "0 cent"
+  },
+  {
+    "id": "package_trauma_dressing_hemostatic_quikclot",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      "https://www.narescue.com/quikclot-bleeding-control-dressings.html"
+    ],
+
+    "//notes": ["the 4-inch version"],
+
+    "name": {
+      "str": "hemostatic dressing packet"
+    },
+    "description": "A small white plastic tear-open packet with a red left border.  Under the logo of QuikClot, the text says \"Bleeding Control Dressing™\".  On the back, there are instructions for application of the hemostatic trauma dressing it contains.",
+
+    "//weight": "guessed based on size and previously-filed packages",
+    "weight": "7 g",
+    "//dimensions": {
+      "length": "5 in",
+      "width": "3.5 in",
+      "height": "0.1 mm",
+      "raw": "1.13 ml",
+      "trim": 0,
+      "notes": ["height assumed"]
+    },
+    "volume": "1 ml",
+    "longest_side": "127 mm",
+
+    "material": ["plastic"],
+
+    "symbol": ")",
+    "color": "light_gray",
+    "looks_like": "bag_zipper",
+
+    "to_hit": -2,
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "//max_contains_volume": "slightly more than the hemostatic dressing it's meant for, since the packet is vacuum-fitted to the dressing, but also can't be resealed to full height after being torn open",
+        "max_contains_volume": "20 ml",
+        "//max_contains_weight": "even though used for ~15 g of trauma dressing, it looks like it can hold a bit more than that",
+        "max_contains_weight": "35 g",
+
+        "airtight": true,
+        "watertight": true,
+        "sealed_data": {
+          "spoil_multiplier": 0
+        },
+
+        "moves": 200
+      }
+    ],
+
+    "price": "1 cent",
+    "price_postapoc": "0 cent"
   }
 ]
