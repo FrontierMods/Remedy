@@ -523,14 +523,16 @@
 
     "weight": "74 g",
     "//dimensions": {
-      "length": "4.25 in",
-      "width": "2.75 in",
-      "height": "0.875 in",
-      "raw": "167.58 ml",
-      "trim": 0.25
+      "length": "70 in",
+      "width": "4 in",
+      "height": "0.15 mm",
+      "raw": "27.10 ml",
+      "trim": 0.15,
+      "notes": ["height (thickness) presumed"]
     },
-    "volume": "126 ml",
-    "longest_side": "108 mm",
+    "volume": "23 ml",
+    "//longest_side": "4 in.",
+    "longest_side": "102 mm",
 
     "material": ["cotton"],
 
