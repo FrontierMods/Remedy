@@ -1,0 +1,68 @@
+[
+  {
+    "id": "thread_suture",
+    "type": "AMMO",
+    "category": "spare_parts",
+
+    "//sources": [
+      "https://www.ethicon.com/na/epc/code/y496g",
+      ["https://www.westcmr.com/y496g-wb12-y496g", "price"],
+      ["https://pubchem.ncbi.nlm.nih.gov/compound/Caprolactone", "density"]
+    ],
+
+    "//notes": [
+      [
+        "the density given in sources is for a related chemical compound, of which poliglecarpone 25 (aka Monocryl) is a monomer",
+        "it's not unlikely that the monomer would have a noticable change in density",
+        "this is as close as we have so far"
+      ],
+      "size 4-0, to match the needle",
+      [
+        "for the purposes of the amount of charges, we assume that an average wound is 50 mm in length",
+        "from that, placing 6 stitches roughly 10 mm apart yields 300 mm of suture required per wound",
+        "we assume this, rather than the stated 18 in. ≈ 457 mm to be the length of a single instance of suture"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "suture"
+    },
+    "description": "A length of thin, clear polymer that is used as medical thread for wound closure.  This suture is made of Monocryl: an absorbable material that will completely dissipate after a few weeks after being used.  Can be used along with a suture needle to close skin wounds.",
+
+    "//weight": "volume per instance (5.3 µl) × density (1.07 g/cm3) = 5.67 mg ≈ 6 mg",
+    "weight": "6 mg",
+    "//dimensions": {
+      "length": "300 mm",
+      "diameter": "0.15 mm",
+      "raw": "5.3 µl",
+      "trim": 0
+    },
+    "//volume": [
+      "volume per 200 instances of suture",
+      "5.3 × 200 = 1060 µl ≈ 1 ml"
+    ],
+    "volume": "1 ml",
+
+    "//material": "Poliglecaprone 25, aka Monocryl",
+    "material": ["nylon"],
+
+    "symbol": "=",
+    "color": "light_blue",
+
+    "ammo_type": "suture",
+
+    "count": 200,
+    "stack_size": 400,
+
+    "flags": ["NO_SALVAGE"],
+
+    "//price": [
+      "$60 / (12 boxes of 18 in. of thread)",
+      "12 × 18 in. = 216 in. = 5486.4 mm",
+      "5486.4 / 300 [single instance] = 18.288 instances",
+      "60 / 18 = $3.28 / instance"
+    ],
+    "price": "328 cent",
+    "price_postapoc": "33 cent"
+  }
+]

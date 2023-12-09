@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "suture",
+    "name": "suture",
+    "default": "thread_suture"
+  }
+]
