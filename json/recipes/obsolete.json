@@ -1,0 +1,17 @@
+[
+  {
+    "type": "recipe",
+    "result": "bandages",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "adhesive_bandages",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "tourniquet_upper",
+    "obsolete": true
+  }
+]
