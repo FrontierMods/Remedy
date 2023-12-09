@@ -52,7 +52,7 @@
     "ammo_type": "suture",
 
     "count": 200,
-    "stack_size": 400,
+    "stack_size": 200,
 
     "flags": ["NO_SALVAGE"],
 
