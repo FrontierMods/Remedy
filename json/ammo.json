@@ -57,10 +57,10 @@
     "flags": ["NO_SALVAGE"],
 
     "//price": [
-      "$60 / (12 boxes of 18 in. of thread)",
+      "$60 / 12 [boxes of 18 in. of thread]",
       "12 × 18 in. = 216 in. = 5486.4 mm",
-      "5486.4 / 300 [single instance] = 18.288 instances",
-      "60 / 18 = $3.28 / instance"
+      "5486.4 / 300 [mm per single instance] = 18.288 instances",
+      "60 / 18.288 = $3.28 / instance"
     ],
     "price": "328 cent",
     "price_postapoc": "33 cent"
