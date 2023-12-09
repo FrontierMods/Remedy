@@ -18,7 +18,7 @@
     "components": [
       [["medical_gauze", 1]],
       [
-        ["bandage", 1],
+        ["bandages", 1],
         ["medical_tape", 2]
       ]
     ]
@@ -61,7 +61,7 @@
     "components": [
       [["medical_gauze", 2]],
       [
-        ["bandage", 2],
+        ["bandages", 2],
         ["medical_tape", 4]
       ],
       [["quikclot", 1]]
