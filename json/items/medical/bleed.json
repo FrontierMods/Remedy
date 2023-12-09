@@ -206,7 +206,7 @@
     "name": {
       "str": "gauze bandage"
     },
-    "description": "A roll of non-sterile gauze bandage, 4″ × 12 yds (7.5 cm × 3.6 m), produced by Cardinal Health under the Dermacea brand.  Used primarily to keep other, more potent wound dressing in place and under pressure, it can itself be used to stop light bleeding in a pinch.",
+    "description": "A roll of non-sterile gauze bandage, 4″ × 12 yds (10.2 cm × 11 m), produced by Cardinal Health under the Dermacea brand.  Used primarily to keep other, more potent wound dressing in place and under pressure, it can itself be used to stop light bleeding in a pinch.",
 
     "//weight": [
       "we derive weight of a single roll from total weight of the 12-roll paper box (0.3 lbs = 136.08 g)",
@@ -214,13 +214,13 @@
     ],
     "weight": "11 g",
     "//dimensions": {
-      "length": "4 in",
-      "diameter": "1.375 in",
-      "raw": "97.33 ml",
-      "trim": 0,
-      "notes": ["height is half the height of the 6-by-2-rolls box"]
+      "length": "144 in",
+      "width": "4 in",
+      "height": "0.1 mm",
+      "raw": "37.16 ml",
+      "trim": 0.1
     },
-    "volume": "97 ml",
+    "volume": "33 ml",
     "longest_side": "102 mm",
 
     "material": ["cotton"],
@@ -235,7 +235,7 @@
     "use_action": {
       "type": "heal",
 
-      "bandages_power": 2,
+      "bandages_power": 3,
       "bleed": 5,
 
       "move_cost": 1500
