@@ -1,0 +1,116 @@
+[
+  {
+    "id": "bandages_makeshift",
+    "copy-from": "bandages_makeshift",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//notes": [
+      [
+        "adopted from the following base-game PR, with some changes",
+        "https://github.com/CleverRaven/Cataclysm-DDA/pull/70082"
+      ],
+      "dimensions based off of 1/4 of `cotton_sheet` from which these are made"
+    ],
+
+    "name": {
+      "str": "makeshift bandage"
+    },
+    "description": "A reasonably-clean piece of cloth, wrapped for use as a simple bandage.  Better than nothing.  You could make it into a gauze, and then use the gauze and a bandage as a makeshift wound dressing, which is noticably more effective.",
+
+    "weight": "9500 mg",
+    "volume": "12 ml",
+    "//longest_side": [
+      "actual longest side when laid out flat: 24 in. = 609.6 mm",
+      "we assume roll fold, where the height (3 in. = 76.2 mm) will be the longest side"
+    ],
+    "longest_side": "76 mm",
+
+    "material": ["cotton"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "stack_size": 9,
+
+    "use_action": {
+      "type": "heal",
+
+      "bandages_power": 1,
+      "bleed": 3,
+
+      "move_cost": 2400
+    },
+
+    "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
+
+    "price": "250 cent",
+    "price_postapoc": "2 cent"
+  },
+  {
+    "id": "bandages_makeshift_boiled",
+    "copy-from": "bandages_makeshift",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str": "boiled makeshift bandage"
+    },
+    "description": "A piece of cloth that has been sterilized through boiling, wrapped for use as a simple bandage.  Better than nothing.  You could make it into a gauze, and then use the gauze and a bandage as a makeshift wound dressing, which is noticably more effective.",
+
+    "use_action": {
+      "type": "heal",
+
+      "bandages_power": 2,
+      "bleed": 3,
+
+      "move_cost": 2400
+    },
+
+    "price_postapoc": "10 cent"
+  },
+  {
+    "id": "bandages_makeshift_bleached",
+    "copy-from": "bandages_makeshift",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str": "bleached makeshift bandage"
+    },
+    "description": "A piece of cloth that has been sterilized through bleaching, wrapped for use as a simple bandage.  Better than nothing.  You could make it into a gauze, and then use the gauze and a bandage as a makeshift wound dressing, which is noticably more effective.",
+
+    "use_action": {
+      "type": "heal",
+
+      "bandages_power": 2,
+      "bleed": 3,
+
+      "move_cost": 2400
+    },
+
+    "price_postapoc": "10 cent"
+  },
+  {
+    "id": "bandages_makeshift_desinfected",
+    "copy-from": "bandages_makeshift",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str": "desinfected makeshift bandage"
+    },
+    "description": "A piece of cloth that has been sterilized through use of desinfectant solutions, wrapped for use as a simple bandage.  Not as good as commercially-available options, but close.  You could make it into a gauze, and then use the gauze and a bandage as a makeshift wound dressing, which is noticably more effective.",
+
+    "use_action": {
+      "type": "heal",
+
+      "bandages_power": 3,
+      "bleed": 3,
+
+      "move_cost": 2400
+    },
+
+    "price_postapoc": "15 cent"
+  }
+]
