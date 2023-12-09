@@ -112,8 +112,7 @@
         "pocket_type": "MAGAZINE",
 
         "ammo_restriction": {
-          "thread_suture": 100,
-          "thread_sterilized": 100
+          "suture": 3
         }
       }
     ],
