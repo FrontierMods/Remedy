@@ -167,5 +167,54 @@
     "components": [[["bandage_makeshift_sterilized", 1]]],
 
     "flags": ["BLIND_EASY"]
+  },
+
+  {
+    "type": "recipe",
+    "result": "trauma_dressing_makeshift",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "activity_level": "NO_EXERCISE",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+    "autolearn": true,
+
+    "time": "15 s",
+
+    "components": [
+      [["gauze_makeshift_bandage", 1]],
+      [
+        ["bandage_makeshift", 1],
+        ["bandage_makeshift_sterilized", 1],
+        ["tape_medical_kendall", 2]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "trauma_dressing_makeshift_sterilized",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "activity_level": "NO_EXERCISE",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+    "autolearn": true,
+
+    "time": "15 s",
+
+    "components": [
+      [["gauze_makeshift_bandage_sterilized", 1]],
+      [
+        ["bandage_makeshift", 1],
+        ["bandage_makeshift_sterilized", 1],
+        ["tape_medical_kendall", 2]
+      ]
+    ]
   }
 ]
