@@ -3,10 +3,10 @@
     "type": "recipe",
     "result": "trauma_dressing_improvised",
 
-    "activity_level": "NO_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
+
+    "activity_level": "NO_EXERCISE",
 
     "skill_used": "firstaid",
     "difficulty": 1,
@@ -27,14 +27,13 @@
     "type": "recipe",
     "result": "bandage_pressure_improvised",
 
-    "activity_level": "NO_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
 
+    "activity_level": "NO_EXERCISE",
+
     "skill_used": "firstaid",
     "difficulty": 3,
-
     "autolearn": true,
 
     "time": "25 s",
@@ -48,16 +47,16 @@
     "type": "recipe",
     "result": "trauma_dressing_hemostatic_improvised",
 
-    "activity_level": "NO_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
 
+    "activity_level": "NO_EXERCISE",
+
     "skill_used": "firstaid",
     "difficulty": 4,
-    "result_mult": 2,
-
     "autolearn": true,
+
+    "result_mult": 2,
 
     "time": "40 s",
 
