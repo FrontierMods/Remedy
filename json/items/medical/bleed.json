@@ -1,6 +1,6 @@
 [
   {
-    "id": "tourniquet_upper",
+    "id": "tourniquet_nar_arm",
     "type": "ARMOR",
 
     "//sources": [
@@ -46,7 +46,7 @@
 
     "use_action": {
       "type": "transform",
-      "target": "tourniquet_upper_XL",
+      "target": "tourniquet_nar_arm_xl",
 
       "menu_text": "Adjust",
 
@@ -59,8 +59,8 @@
     "price_postapoc": "2 USD"
   },
   {
-    "id": "tourniquet_upper_XL",
-    "copy-from": "tourniquet_upper",
+    "id": "tourniquet_nar_arm_xl",
+    "copy-from": "tourniquet_nar_arm",
     "type": "ARMOR",
 
     "name": {
@@ -81,7 +81,7 @@
 
     "use_action": {
       "type": "transform",
-      "target": "tourniquet_upper_XS",
+      "target": "tourniquet_nar_arm_xs",
 
       "menu_text": "Adjust",
 
@@ -89,8 +89,8 @@
     }
   },
   {
-    "id": "tourniquet_upper_XS",
-    "copy-from": "tourniquet_upper",
+    "id": "tourniquet_nar_arm_xs",
+    "copy-from": "tourniquet_nar_arm",
     "type": "ARMOR",
 
     "name": {
@@ -111,7 +111,7 @@
 
     "use_action": {
       "type": "transform",
-      "target": "tourniquet_lower",
+      "target": "tourniquet_nar_leg",
 
       "menu_text": "Adjust",
 
@@ -119,13 +119,9 @@
     }
   },
   {
-    "id": "tourniquet_lower",
-    "copy-from": "tourniquet_lower",
+    "id": "tourniquet_nar_leg",
+    "copy-from": "tourniquet_nar_arm",
     "type": "ARMOR",
-
-    "//sources": [
-      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
-    ],
 
     "name": {
       "str": "NAR C-A-T (leg)",
@@ -138,13 +134,13 @@
         "encumbrance": 70,
 
         "coverage": 2,
-        "covers": ["arm_l", "arm_r"]
+        "covers": ["leg_l", "leg_r"]
       }
     ],
 
     "use_action": {
       "type": "transform",
-      "target": "tourniquet_lower_XL",
+      "target": "tourniquet_nar_leg_xl",
 
       "menu_text": "Adjust",
 
@@ -152,13 +148,9 @@
     }
   },
   {
-    "id": "tourniquet_lower_XL",
-    "copy-from": "tourniquet_lower_XL",
+    "id": "tourniquet_nar_leg_xl",
+    "copy-from": "tourniquet_nar_arm",
     "type": "ARMOR",
-
-    "//sources": [
-      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
-    ],
 
     "name": {
       "str": "NAR C-A-T (leg XL)",
@@ -172,13 +164,43 @@
 
         "//coverage": "lower coverage on a larger limb",
         "coverage": 1,
-        "covers": ["arm_l", "arm_r"]
+        "covers": ["leg_l", "leg_r"]
       }
     ],
 
     "use_action": {
       "type": "transform",
-      "target": "tourniquet_upper",
+      "target": "tourniquet_nar_leg_xs",
+
+      "menu_text": "Adjust",
+
+      "msg": "You adjust the tourniquet."
+    }
+  },
+  {
+    "id": "tourniquet_nar_leg_xs",
+    "copy-from": "tourniquet_nar_arm",
+    "type": "ARMOR",
+
+    "name": {
+      "str": "NAR C-A-T (leg XS)",
+      "str_pl": "NAR C-A-Ts (leg XS)"
+    },
+    "description": "Combat Application Tourniquet, produced by North American Rescue.  This windlass tourniquet officially in use with the U.S. Army is intended for stopping hemorrage in battlefield and pre-hospital conditions.  While not easy to use, it may save your life.  The strap is currently wide enough for use on an child's leg.  Activate to adjust size and location.",
+
+    "armor": [
+      {
+        "encumbrance": 70,
+
+        "//coverage": "lower coverage on a larger limb",
+        "coverage": 4,
+        "covers": ["leg_l", "leg_r"]
+      }
+    ],
+
+    "use_action": {
+      "type": "transform",
+      "target": "tourniquet_nar_arm",
 
       "menu_text": "Adjust",
 
