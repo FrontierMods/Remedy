@@ -67,5 +67,118 @@
     },
 
     "price_postapoc": "10 cent"
+  },
+
+  {
+    "id": "gauze_makeshift_bandage",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "ammo_type": "components",
+
+    "//notes": ["a non-sterile gauze made of a regular makeshift bandage"],
+
+    "name": {
+      "str": "makeshift gauze pad"
+    },
+    "description": "A reasonably-clean piece of cloth, folded into a gauze pad.  Cannot be used on its own.  It can, however, be made into a makeshift trauma dressing when combined with something to hold it attached to the limb.",
+
+    "weight": "9500 mg",
+    "volume": "12 ml",
+
+    "material": ["cotton"],
+
+    "symbol": ",",
+    "color": "white",
+
+    "//use_action": [
+      "with nothing to hold the pad in place, it can't be used reliably as wound dressing"
+    ],
+
+    "//price": "placeholder/guess",
+    "price": "5 cent",
+    "price_postapoc": "1 cent"
+  },
+  {
+    "id": "gauze_makeshift_bandage_sterilized",
+    "copy-from": "gauze_makeshift_bandage",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "ammo_type": "components",
+
+    "name": {
+      "str": "sterilized makeshift gauze pad"
+    },
+    "description": "A sterilized piece of cloth, folded into a gauze pad.  Cannot be used on its own.  It can, however, be made into a makeshift trauma dressing when combined with something to hold it attached to the limb."
+  },
+
+  {
+    "id": "trauma_dressing_makeshift",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str_sp": "makeshift trauma dressing"
+    },
+    "description": "A gauze pad reinforced by a length of makeshift bandage.  Used for bleed control and protecting wounds from aggravation to help them heal faster.  The bandage helps apply additional pressure to the wound, improving bleed control properties.  Not as effective as commercial options, but will do in a pinch.",
+
+    "weight": "19 g",
+    "volume": "24 ml",
+
+    "material": ["cotton"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "stack_size": 9,
+
+    "use_action": {
+      "type": "heal",
+
+      "//bandages_power": "same bandage power (i.e., healing effect on the wound) as a regular bandage in the base game",
+      "bandages_power": 3,
+      "bleed": 9,
+
+      "move_cost": 2100
+    },
+
+    "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
+
+    "price": "7 cent",
+    "price_postapoc": "7 cent"
+  },
+  {
+    "id": "trauma_dressing_makeshift_sterilized",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str_sp": "sterilized makeshift trauma dressing"
+    },
+    "description": "A sterilized gauze pad reinforced by a length of makeshift bandage.  Used for bleed control and protecting wounds from aggravation to help them heal faster.  The bandage helps apply additional pressure to the wound, improving bleed control properties.  Not as effective as commercial options, but will do in a pinch.",
+
+    "weight": "19 g",
+    "volume": "24 ml",
+
+    "material": ["cotton"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "stack_size": 9,
+
+    "use_action": {
+      "type": "heal",
+
+      "//bandages_power": "same bandage power (i.e., healing effect on the wound) as a regular bandage in the base game",
+      "bandages_power": 4,
+      "bleed": 9,
+
+      "move_cost": 2100
+    },
+
+    "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
+
+    "price": "7 cent",
+    "price_postapoc": "7 cent"
   }
 ]
