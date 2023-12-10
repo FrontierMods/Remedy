@@ -209,7 +209,7 @@
   },
 
   {
-    "id": "bandages",
+    "id": "bandage_commercial_dermacea",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -269,7 +269,7 @@
     "price_postapoc": "10 cent"
   },
   {
-    "id": "adhesive_bandages",
+    "id": "bandage_adhesive_commercial_curity",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -334,7 +334,7 @@
   },
 
   {
-    "id": "medical_tape",
+    "id": "tape_medical_kendall",
     "type": "AMMO",
     "category": "spare_parts",
     "ammo_type": "components",
@@ -398,7 +398,7 @@
   },
 
   {
-    "id": "medical_gauze",
+    "id": "gauze_pad_commercial_curaplex",
     "type": "AMMO",
     "category": "spare_parts",
     "ammo_type": "components",
@@ -461,7 +461,7 @@
   },
 
   {
-    "id": "quikclot",
+    "id": "agent_hemostatic_celox",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -478,7 +478,7 @@
     ],
 
     "name": {
-      "str_sp": "hemostatic granules"
+      "str_sp": "hemostatic agent"
     },
     "description": "A coarse powder of yellow-ish flaky granules, produced by Celox.  When used on a wound, significantly stems any bleeding by sealing the wound under a gel-like substance.  The hemostatic properties of the granules come from the contained chitosan: a polysaccharide produced from crustacean chitin.  However, the application of the granules have not caused a single allergic reaction in almost 20 years that the hemostatic has been used.",
 
@@ -518,7 +518,7 @@
   },
 
   {
-    "id": "trauma_dressing_nar",
+    "id": "trauma_dressing_commercial_nar",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -565,7 +565,7 @@
     "price_postapoc": "20 cent"
   },
   {
-    "id": "trauma_dressing_hemostatic_nar",
+    "id": "trauma_dressing_hemostatic_commercial_quikclot",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -576,7 +576,7 @@
     "name": {
       "str": "QuikClot hemostatic dressing"
     },
-    "description": "A thin white gauze rolled up, 3 inches wide.  Intended to be wrapped around a shallow wound, or packed into a deep wound, in order to promote clotting and stem bleeding.  Impregnated with kaolin, this wound dressing accelerates natural clotting, making controlling even severe bleeding much easier.",
+    "description": "A thin white 3″ gauze rolled up.  Intended to be wrapped around a shallow wound, or packed into a deep wound, in order to promote clotting and stem bleeding.  Impregnated with kaolin, this wound dressing accelerates natural clotting, making controlling even severe bleeding much easier.",
 
     "weight": "14 g",
     "//dimensions": {
@@ -601,7 +601,7 @@
     "use_action": {
       "type": "heal",
 
-      "bandages_power": 1,
+      "bandages_power": 2,
       "bleed": 16,
 
       "move_cost": 1900
