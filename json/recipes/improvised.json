@@ -33,7 +33,7 @@
     "activity_level": "NO_EXERCISE",
 
     "skill_used": "firstaid",
-    "difficulty": 3,
+    "difficulty": 2,
     "autolearn": true,
 
     "time": "25 s",
@@ -53,7 +53,7 @@
     "activity_level": "NO_EXERCISE",
 
     "skill_used": "firstaid",
-    "difficulty": 4,
+    "difficulty": 3,
     "autolearn": true,
 
     "result_mult": 2,
