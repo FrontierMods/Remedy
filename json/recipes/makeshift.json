@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "bandages_makeshift",
+    "result": "bandage_makeshift",
 
     "activity_level": "LIGHT_EXERCISE",
 
@@ -21,7 +21,7 @@
   },
   {
     "type": "recipe",
-    "result": "bandages_makeshift",
+    "result": "bandage_makeshift",
     "id_suffix": "with_tool",
 
     "activity_level": "NO_EXERCISE",
@@ -48,7 +48,7 @@
   },
   {
     "type": "recipe",
-    "result": "bandages_makeshift_bleached",
+    "result": "bandage_makeshift_sterilized",
 
     "activity_level": "NO_EXERCISE",
 
@@ -75,7 +75,8 @@
   },
   {
     "type": "recipe",
-    "result": "bandages_makeshift_boiled",
+    "result": "bandage_makeshift_sterilized",
+    "id_suffix": "via_boiling",
 
     "activity_level": "NO_EXERCISE",
 
@@ -107,7 +108,8 @@
   },
   {
     "type": "recipe",
-    "result": "bandages_makeshift_desinfected",
+    "result": "bandage_makeshift_sterilized",
+    "id_suffix": "with_desinfectants",
 
     "activity_level": "NO_EXERCISE",
 
@@ -115,17 +117,13 @@
     "subcategory": "CSC_*_NESTED",
 
     "skill_used": "firstaid",
-    "difficulty": 2,
+    "difficulty": 1,
     "autolearn": true,
 
     "time": "30 s",
 
     "components": [
-      [
-        ["bandages_makeshift", 1],
-        ["bandages_makeshift_bleached", 1],
-        ["bandages_makeshift_boiled", 1]
-      ],
+      [["bandages_makeshift", 1]],
       [
         ["disinfectant", 1],
         ["thyme_oil", 1],
@@ -134,5 +132,40 @@
         ["methed_alcohol", 100]
       ]
     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "gauze_makeshift_bandage",
+
+    "activity_level": "NO_EXERCISE",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "time": "4 s",
+
+    "autolearn": true,
+
+    "components": [[["bandage_makeshift", 1]]],
+
+    "flags": ["BLIND_EASY"]
+  },
+  {
+    "type": "recipe",
+    "result": "gauze_makeshift_bandage_sterilized",
+
+    "activity_level": "NO_EXERCISE",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "time": "4 s",
+
+    "autolearn": true,
+
+    "components": [[["bandage_makeshift_sterilized", 1]]],
+
+    "flags": ["BLIND_EASY"]
   }
 ]

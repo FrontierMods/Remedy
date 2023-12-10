@@ -16,10 +16,10 @@
     "time": "15 s",
 
     "components": [
-      [["medical_gauze", 1]],
+      [["gauze_pad_commercial_curaplex", 1]],
       [
-        ["bandages", 1],
-        ["medical_tape", 2]
+        ["bandage_commercial_dermacea", 1],
+        ["tape_medical_kendall", 2]
       ]
     ]
   },
@@ -39,7 +39,10 @@
 
     "time": "25 s",
 
-    "components": [[["medical_gauze", 1]], [["medical_tape", 6]]]
+    "components": [
+      [["gauze_pad_commercial_curaplex", 1]],
+      [["tape_medical_kendall", 6]]
+    ]
   },
   {
     "type": "recipe",
@@ -59,12 +62,12 @@
     "time": "40 s",
 
     "components": [
-      [["medical_gauze", 2]],
+      [["gauze_pad_commercial_curaplex", 2]],
       [
-        ["bandages", 2],
-        ["medical_tape", 4]
+        ["bandage_commercial_dermacea", 2],
+        ["tape_medical_kendall", 4]
       ],
-      [["quikclot", 1]]
+      [["agent_hemostatic_celox", 1]]
     ]
   }
 ]
