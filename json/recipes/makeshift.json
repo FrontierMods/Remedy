@@ -3,14 +3,14 @@
     "type": "recipe",
     "result": "bandage_makeshift",
 
-    "activity_level": "LIGHT_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
 
-    "time": "48 s",
+    "activity_level": "LIGHT_EXERCISE",
 
     "autolearn": true,
+
+    "time": "48 s",
 
     "result_mult": 4,
 
@@ -24,36 +24,36 @@
     "result": "bandage_makeshift",
     "id_suffix": "with_tool",
 
-    "activity_level": "NO_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
 
-    "time": "20 s",
+    "activity_level": "NO_EXERCISE",
 
     "autolearn": true,
 
-    "flags": ["BLIND_EASY"],
-
-    "result_mult": 4,
+    "time": "20 s",
 
     "qualities": [{ "id": "CUT", "level": 1 }],
+
+    "result_mult": 4,
 
     "components": [
       [
         ["sheet_cotton", 1],
         ["sheet_cotton_patchwork", 1]
       ]
-    ]
+    ],
+
+    "flags": ["BLIND_EASY"]
   },
   {
     "type": "recipe",
     "result": "bandage_makeshift_sterilized",
 
-    "activity_level": "NO_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
+
+    "activity_level": "NO_EXERCISE",
 
     "skill_used": "firstaid",
     "difficulty": 1,
@@ -65,7 +65,7 @@
     "result_mult": 9,
 
     "components": [
-      [["bandages_makeshift", 9]],
+      [["bandage_makeshift", 9]],
       [["bleach", 1]],
       [
         ["water_clean", 3],
@@ -78,10 +78,10 @@
     "result": "bandage_makeshift_sterilized",
     "id_suffix": "via_boiling",
 
-    "activity_level": "NO_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
+
+    "activity_level": "NO_EXERCISE",
 
     "skill_used": "firstaid",
     "difficulty": 1,
@@ -97,7 +97,7 @@
     "result_mult": 3,
 
     "components": [
-      [["bandages_makeshift", 3]],
+      [["bandage_makeshift", 3]],
       [
         ["water_clean", 1],
         ["water", 1]
@@ -111,10 +111,10 @@
     "result": "bandage_makeshift_sterilized",
     "id_suffix": "with_desinfectants",
 
-    "activity_level": "NO_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
+
+    "activity_level": "NO_EXERCISE",
 
     "skill_used": "firstaid",
     "difficulty": 1,
@@ -123,7 +123,7 @@
     "time": "30 s",
 
     "components": [
-      [["bandages_makeshift", 1]],
+      [["bandage_makeshift", 1]],
       [
         ["disinfectant", 1],
         ["thyme_oil", 1],
@@ -138,14 +138,14 @@
     "type": "recipe",
     "result": "gauze_makeshift_bandage",
 
-    "activity_level": "NO_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
 
-    "time": "4 s",
+    "activity_level": "NO_EXERCISE",
 
     "autolearn": true,
+
+    "time": "4 s",
 
     "components": [[["bandage_makeshift", 1]]],
 
@@ -155,14 +155,14 @@
     "type": "recipe",
     "result": "gauze_makeshift_bandage_sterilized",
 
-    "activity_level": "NO_EXERCISE",
-
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
 
-    "time": "4 s",
+    "activity_level": "NO_EXERCISE",
 
     "autolearn": true,
+
+    "time": "4 s",
 
     "components": [[["bandage_makeshift_sterilized", 1]]],
 
