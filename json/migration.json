@@ -1,0 +1,54 @@
+[
+  {
+    "id": ["tourniquet_upper"],
+    "type": "MIGRATION",
+    "replace": "tourniquet_nar_arm"
+  },
+  {
+    "id": ["tourniquet_upper_XL"],
+    "type": "MIGRATION",
+    "replace": "tourniquet_nar_arm_xl"
+  },
+  {
+    "id": ["tourniquet_upper_XS"],
+    "type": "MIGRATION",
+    "replace": "tourniquet_nar_arm_xs"
+  },
+  {
+    "id": ["tourniquet_lower"],
+    "type": "MIGRATION",
+    "replace": "tourniquet_nar_leg"
+  },
+  {
+    "id": ["tourniquet_lower_XL"],
+    "type": "MIGRATION",
+    "replace": "tourniquet_nar_leg_XL"
+  },
+
+  {
+    "id": ["bandages"],
+    "type": "MIGRATION",
+    "replace": "bandage_commercial_dermacea"
+  },
+  {
+    "id": ["adhesive_bandage"],
+    "type": "MIGRATION",
+    "replace": "bandage_adhesive_commercial_curity"
+  },
+  {
+    "id": ["medical_gauze"],
+    "type": "MIGRATION",
+    "replace": "gauze_pad_commercial_curaplex"
+  },
+  {
+    "id": ["quikclot"],
+    "type": "MIGRATION",
+    "replace": "agent_hemostatic_celox"
+  },
+
+  {
+    "id": ["medical_tape"],
+    "type": "MIGRATION",
+    "replace": "tape_medical_kendall"
+  }
+]
