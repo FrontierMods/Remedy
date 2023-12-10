@@ -1,7 +1,6 @@
 [
   {
-    "id": "bandages_makeshift",
-    "copy-from": "bandages_makeshift",
+    "id": "bandage_makeshift",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -48,15 +47,15 @@
     "price_postapoc": "2 cent"
   },
   {
-    "id": "bandages_makeshift_boiled",
-    "copy-from": "bandages_makeshift",
+    "id": "bandage_makeshift_sterilized",
+    "copy-from": "bandage_makeshift",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
     "name": {
-      "str": "boiled makeshift bandage"
+      "str": "sterilized makeshift bandage"
     },
-    "description": "A piece of cloth that has been sterilized through boiling, wrapped for use as a simple bandage.  Better than nothing.  You could make it into a gauze, and then use the gauze and a bandage as a makeshift wound dressing, which is noticably more effective.",
+    "description": "A piece of cloth that has been sterilized, wrapped for use as a simple bandage.  Better than nothing.  You could make it into a gauze, and then use the gauze and a bandage as a makeshift wound dressing, which is noticably more effective.",
 
     "use_action": {
       "type": "heal",
@@ -68,49 +67,5 @@
     },
 
     "price_postapoc": "10 cent"
-  },
-  {
-    "id": "bandages_makeshift_bleached",
-    "copy-from": "bandages_makeshift",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-
-    "name": {
-      "str": "bleached makeshift bandage"
-    },
-    "description": "A piece of cloth that has been sterilized through bleaching, wrapped for use as a simple bandage.  Better than nothing.  You could make it into a gauze, and then use the gauze and a bandage as a makeshift wound dressing, which is noticably more effective.",
-
-    "use_action": {
-      "type": "heal",
-
-      "bandages_power": 2,
-      "bleed": 3,
-
-      "move_cost": 2400
-    },
-
-    "price_postapoc": "10 cent"
-  },
-  {
-    "id": "bandages_makeshift_desinfected",
-    "copy-from": "bandages_makeshift",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-
-    "name": {
-      "str": "desinfected makeshift bandage"
-    },
-    "description": "A piece of cloth that has been sterilized through use of desinfectant solutions, wrapped for use as a simple bandage.  Not as good as commercially-available options, but close.  You could make it into a gauze, and then use the gauze and a bandage as a makeshift wound dressing, which is noticably more effective.",
-
-    "use_action": {
-      "type": "heal",
-
-      "bandages_power": 3,
-      "bleed": 3,
-
-      "move_cost": 2400
-    },
-
-    "price_postapoc": "15 cent"
   }
 ]
