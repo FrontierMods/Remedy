@@ -16,7 +16,30 @@
   },
   {
     "type": "recipe",
+    "result": "bandages_makeshift",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
     "result": "bandages_makeshift_boiled",
+    "//": "boiled and bleached bandages replaced by sterilized ones",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "bandages_makeshift_bleached",
+    "//": "boiled and bleached bandages replaced by sterilized ones",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "quikclot",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "quikclot",
+    "id_suffix": "from_alder",
     "obsolete": true
   }
 ]
