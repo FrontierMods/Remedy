@@ -22,7 +22,7 @@
   {
     "id": ["tourniquet_lower_XL"],
     "type": "MIGRATION",
-    "replace": "tourniquet_nar_leg_XL"
+    "replace": "tourniquet_nar_leg_xl"
   },
 
   {
