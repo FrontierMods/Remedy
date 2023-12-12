@@ -19,7 +19,7 @@
       [["gauze_pad_commercial_curaplex", 1]],
       [
         ["bandage_commercial_dermacea", 1],
-        ["tape_medical_kendall", 2]
+        ["tape_medical_kendall", 4]
       ]
     ]
   },
@@ -40,7 +40,7 @@
 
     "components": [
       [["gauze_pad_commercial_curaplex", 1]],
-      [["tape_medical_kendall", 6]]
+      [["bandage_commercial_dermacea", 1]]
     ]
   },
   {
@@ -64,7 +64,7 @@
       [["gauze_pad_commercial_curaplex", 2]],
       [
         ["bandage_commercial_dermacea", 2],
-        ["tape_medical_kendall", 4]
+        ["tape_medical_kendall", 8]
       ],
       [["agent_hemostatic_celox", 1]]
     ]
