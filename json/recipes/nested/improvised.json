@@ -1,0 +1,23 @@
+[
+  {
+    "id": "nested_group_improvised",
+    "type": "nested_category",
+
+    "name": "improvised bleed control",
+    "description": "Recipes that create improvised bleed-control solutions.",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+
+    "activity_level": "MODERATE_EXERCISE",
+
+    "nested_category_data": [
+      "trauma_dressing_improvised",
+      "bandage_pressure_improvised",
+      "trauma_dressing_hemostatic_improvised"
+    ]
+  }
+]
