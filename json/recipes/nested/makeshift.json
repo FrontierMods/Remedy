@@ -1,0 +1,105 @@
+[
+  {
+    "id": "nested_bandages_makeshift",
+    "type": "nested_category",
+
+    "name": "makeshift bandages",
+    "description": "Recipes related to crafting variations of bandages.",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+
+    "activity_level": "MODERATE_EXERCISE",
+
+    "nested_category_data": [
+      "bandage_makeshift",
+      "bandage_makeshift_with_tool",
+      "bandage_makeshift_sterilized",
+      "bandage_makeshift_sterilized_via_boiling",
+      "bandage_makeshift_sterilized_with_desinfectants"
+    ]
+  },
+  {
+    "id": "nested_gauzes_makeshift",
+    "type": "nested_category",
+
+    "name": "makeshift gauzes",
+    "description": "Recipes related to crafting variations of gauzes.",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+
+    "activity_level": "MODERATE_EXERCISE",
+
+    "nested_category_data": [
+      "gauze_makeshift_bandage",
+      "gauze_makeshift_bandage_sterilized"
+    ]
+  },
+  {
+    "id": "nested_trauma_dressing_makeshift",
+    "type": "nested_category",
+
+    "name": "makeshift trauma dressing",
+    "description": "Recipes related to crafting variations of makeshift trauma dressing.",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+
+    "activity_level": "MODERATE_EXERCISE",
+
+    "nested_category_data": [
+      "trauma_dressing_makeshift",
+      "trauma_dressing_makeshift_sterilized"
+    ]
+  },
+  {
+    "id": "nested_bleed_components_makeshift",
+    "type": "nested_category",
+
+    "name": "makeshift bleed components",
+    "description": "Recipes that create items that are used in makeshift bleed-control solutions.",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+
+    "activity_level": "MODERATE_EXERCISE",
+
+    "nested_category_data": [
+      "nested_bandages_makeshift",
+      "nested_gauzes_makeshift"
+    ]
+  },
+  {
+    "id": "nested_group_makeshift",
+    "type": "nested_category",
+
+    "name": "makeshift bleed control",
+    "description": "Recipes that create makeshift bleed-control solutions or their components.",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+
+    "activity_level": "MODERATE_EXERCISE",
+
+    "nested_category_data": [
+      "nested_bleed_components_makeshift",
+      "nested_trauma_dressing_makeshift"
+    ]
+  }
+]

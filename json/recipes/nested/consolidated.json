@@ -1,0 +1,22 @@
+[
+  {
+    "id": "nested_bleedcontrol",
+    "type": "nested_category",
+
+    "name": "bleed control",
+    "description": "Recipes that create items used to stop or slow blood loss.",
+
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MEDICAL",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+
+    "activity_level": "MODERATE_EXERCISE",
+
+    "nested_category_data": [
+      "nested_group_makeshift",
+      "nested_group_improvised"
+    ]
+  }
+]

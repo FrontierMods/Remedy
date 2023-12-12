@@ -1,0 +1,17 @@
+[
+  {
+    "id": "nested_tourniquets",
+    "type": "nested_category",
+    "obsolete": true
+  },
+  {
+    "id": "nested_hemostatic",
+    "type": "nested_category",
+    "obsolete": true
+  },
+  {
+    "id": "nested_bandages",
+    "type": "nested_category",
+    "obsolete": true
+  }
+]
