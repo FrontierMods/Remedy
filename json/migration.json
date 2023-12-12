@@ -52,6 +52,13 @@
   },
 
   {
+    "id": ["bandages_makeshift"],
     "type": "MIGRATION",
+    "replace": "bandage_makeshift"
+  },
+  {
+    "id": ["bandages_makeshift_boiled", "bandages_makeshift_bleached"],
+    "type": "MIGRATION",
+    "replace": "bandage_makeshift_sterilized"
   }
 ]
