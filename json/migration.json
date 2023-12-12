@@ -41,14 +41,17 @@
     "replace": "gauze_pad_commercial_curaplex"
   },
   {
+    "id": ["medical_tape"],
+    "type": "MIGRATION",
+    "replace": "tape_medical_kendall"
+  },
+  {
     "id": ["quikclot"],
     "type": "MIGRATION",
     "replace": "agent_hemostatic_celox"
   },
 
   {
-    "id": ["medical_tape"],
     "type": "MIGRATION",
-    "replace": "tape_medical_kendall"
   }
 ]
