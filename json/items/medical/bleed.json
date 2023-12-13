@@ -531,7 +531,8 @@
     },
     "description": "A brown stretchy bandage with a large gauze pad sewn to it, 4 inches wide.  Intended to control severe bleeding, it can soak up a large amount of liquid, as well as apply constant pressure to the wound, thus aiding clotting rate.  Lightweight and flat-packed to optimize volume inside an emergency response kit, it's meant to be a part of a swift-response kit, such as those carried by EMS and tactical medics.",
 
-    "weight": "74 g",
+    "//weight": "2.6 oz = 73.709 g - 11 g of the packaging = 62.709 g ≈ 63 g",
+    "weight": "63 g",
     "//dimensions": {
       "length": "70 in",
       "width": "4 in",
