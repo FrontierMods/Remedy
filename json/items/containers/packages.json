@@ -72,7 +72,7 @@
     "category": "container",
 
     "//sources": [
-      "https://www.narescue.com/military-products/march/flat-emergency-trauma-dressing-etd.html"
+      "https://www.amazon.com/NAR-FLAT-EMERGENCY-TRAUMA-DRESSING/dp/B00KGKMXWM"
     ],
 
     "name": {
@@ -83,18 +83,15 @@
     "//weight": "guessed based on size and previously-filed packages",
     "weight": "11 g",
     "//dimensions": {
-      "length": "7.4 in",
-      "width": "4.75 in",
+      "length": "6.5 in",
+      "width": "5 in",
       "height": "0.2 mm",
-      "raw": "4.54 ml",
+      "raw": "4.19 ml",
       "trim": 0,
-      "notes": [
-        "length and width acquired from visual reference",
-        "height assumed"
-      ]
+      "notes": ["height (of the package only) assumed"]
     },
-    "volume": "5 ml",
-    "longest_side": "188 mm",
+    "volume": "4 ml",
+    "longest_side": "165 mm",
 
     "material": ["plastic"],
 
