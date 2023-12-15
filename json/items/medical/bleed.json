@@ -317,7 +317,7 @@
     "use_action": {
       "type": "heal",
 
-      "bandages_power": 1,
+      "//bandages_power": "no bandage power for one single adhesive bandage",
       "bleed": 1,
 
       "move_cost": 450
