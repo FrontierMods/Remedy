@@ -82,9 +82,9 @@
     },
     "description": "A sterile gauze pad interspersed with a hemostatic agent and reinforced by a length of gauze bandage.  Used for bleed control and protecting wounds from aggravation to help them heal faster.  The combination of gauze and hemostatic agent helps stem heavier bleeding that either separately.  The bandage helps apply additional pressure to the wound, improving bleed control properties.  Only somewhat less effective than commercial options.",
 
-    "//weight": "weight of bandage + gauze pad + hemostatic granules",
+    "//weight": "weight of bandage + gauze pad + hemostatic agent",
     "weight": "28 g",
-    "//volume": "volume of bandage + gauze pad + 1/2 × hemostatic granules",
+    "//volume": "volume of bandage + gauze pad + 1/2 × hemostatic agent",
     "volume": "62 ml",
 
     "material": ["cotton"],
