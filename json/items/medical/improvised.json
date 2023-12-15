@@ -61,7 +61,7 @@
     "use_action": {
       "type": "heal",
 
-      "bandages_power": 5,
+      "bandages_power": 4,
       "bleed": 13,
 
       "move_cost": 2100
@@ -97,7 +97,7 @@
     "use_action": {
       "type": "heal",
 
-      "bandages_power": 5,
+      "bandages_power": 4,
       "bleed": 17,
 
       "move_cost": 1200
