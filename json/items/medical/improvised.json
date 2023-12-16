@@ -98,7 +98,7 @@
       "type": "heal",
 
       "bandages_power": 4,
-      "bleed": 17,
+      "bleed": 16,
 
       "move_cost": 1200
     },

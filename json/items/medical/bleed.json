@@ -501,7 +501,7 @@
     "use_action": {
       "type": "heal",
 
-      "bleed": 14,
+      "bleed": 12,
 
       "move_cost": 1000
     },
