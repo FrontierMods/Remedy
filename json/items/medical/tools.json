@@ -68,15 +68,15 @@
     ],
 
     "name": {
-      "str_sp": "Ethicon PS-2 suture needle"
+      "str_sp": "suture needle"
     },
-    "description": "A tiny curved needle with a sharp edge.  19 mm long, size 4/0.  Intended for suturing -- that is, sewing a wound shut, to prevent infection and injury -- on the skin, except for the skin of the head and the neck.  Cannot be used for tailoring.",
+    "description": "A tiny curved needle with a sharp edge; made by Ethicon, model PS-2.  19 mm long, size 4/0.  Intended for suturing -- that is, sewing a wound shut, to prevent infection and further injury -- on the skin, except for the skin of the head and the neck.  Cannot be used for tailoring.",
 
     "//weight": "volume after trim (0.57 µl) × approximate density of steel (7850 kg/m3) = 4.47 mg ≈ 5 mg",
     "weight": "5 mg",
     "//dimensions": {
       "length": "19 mm",
-      "diameter": "0.20 mm",
+      "diameter": "0.2 mm",
       "raw": "0.6 µl",
       "trim": 0.05,
       "result": "0.57 µl"
