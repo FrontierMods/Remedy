@@ -1,56 +1,5 @@
 [
   {
-    "id": "scissors_medical_nar",
-    "type": "TOOL",
-
-    "//sources": ["https://www.narescue.com/nar-trauma-shears.html"],
-
-    "//notes": ["6.25 in. model"],
-
-    "name": {
-      "str_sp": "NAR trauma shears"
-    },
-    "description": "A pair of angled scissors, produced by North American Rescue.  Intended for cutting through even the thickest fabrics in order to get the underlying wound, this pair of shears can get through everything up to and including thin sheets of metal.",
-
-    "weight": "43 g",
-    "//dimensions": {
-      "length": "6.25 in",
-      "width": "2.75 in",
-      "height": "0.3 in",
-      "raw": "85 ml",
-      "trim": 0.6
-    },
-    "volume": "34 ml",
-    "longest_side": "159 mm",
-
-    "to_hit": {
-      "grip": "solid",
-      "length": "hand",
-      "surface": "point",
-      "balance": "neutral"
-    },
-    "cutting": 2,
-
-    "//material": "steel should be stainless",
-    "material": ["hc_steel", "plastic"],
-
-    "symbol": ",",
-    "color": "light_red",
-    "looks_like": "scissors",
-    "repairs_like": "scissors",
-
-    "qualities": [
-      ["CUT", 2],
-      ["BUTCHER", 1],
-      ["FABRIC_CUT", 2]
-    ],
-
-    "flags": ["STAB", "SHEATH_KNIFE"],
-
-    "price": "12 USD",
-    "price_postapoc": "10 cent"
-  },
-  {
     "id": "needle_medical_suture_ethicon_ps2",
     "type": "TOOL",
 
