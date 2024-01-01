@@ -60,5 +60,11 @@
     "id": ["bandages_makeshift_boiled", "bandages_makeshift_bleached"],
     "type": "MIGRATION",
     "replace": "bandage_makeshift_sterilized"
+  },
+
+  {
+    "id": ["disinfectant_makeshift"],
+    "type": "MIGRATION",
+    "replace": "chem_ethanol"
   }
 ]

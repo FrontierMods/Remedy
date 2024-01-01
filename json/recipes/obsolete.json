@@ -41,5 +41,10 @@
     "result": "quikclot",
     "id_suffix": "from_alder",
     "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "disinfectant_makeshift",
+    "obsolete": true
   }
 ]
