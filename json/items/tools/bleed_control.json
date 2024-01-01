@@ -66,14 +66,16 @@
       }
     ],
 
-    "use_action": {
-      "type": "heal",
+    "use_action": [
+      {
+        "type": "heal",
 
-      "bandages_power": 10,
-      "bleed": 14,
+        "bandages_power": 10,
+        "bleed": 14,
 
-      "move_cost": 6000
-    },
+        "move_cost": 6000
+      }
+    ],
     "charges_per_use": 1,
 
     "qualities": [["SEW_SURGICAL", 1]],
