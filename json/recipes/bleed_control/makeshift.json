@@ -90,7 +90,7 @@
     "time": "5 m",
     "batch_time_factors": [95, 4],
 
-    "qualities": [{ "id": "BOIL", "level": 1 }],
+    "qualities": [{ "id": "BOIL", "level": 2 }],
 
     "tools": [[["water_boiling_heat", 1, "LIST"]]],
 
