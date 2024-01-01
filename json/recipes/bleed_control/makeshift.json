@@ -145,6 +145,8 @@
 
     "autolearn": true,
 
+    "reversible": true,
+
     "time": "4 s",
 
     "components": [[["bandage_makeshift", 1]]],
@@ -161,6 +163,8 @@
     "activity_level": "NO_EXERCISE",
 
     "autolearn": true,
+
+    "reversible": true,
 
     "time": "4 s",
 
@@ -181,6 +185,8 @@
     "skill_used": "firstaid",
     "difficulty": 2,
     "autolearn": true,
+
+    "reversible": true,
 
     "time": "15 s",
 
@@ -205,6 +211,8 @@
     "skill_used": "firstaid",
     "difficulty": 2,
     "autolearn": true,
+
+    "reversible": true,
 
     "time": "15 s",
 
