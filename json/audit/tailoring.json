@@ -1,0 +1,230 @@
+[
+  {
+    "id": "sewing_kit",
+    "copy-from": "sewing_kit",
+    "type": "TOOL",
+
+    "name": {
+      "str": "sewing kit"
+    },
+
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+
+        "materials": [
+          "cotton",
+          "leather",
+          "lycra",
+          "nylon",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "kevlar",
+          "kevlar_layered",
+          "gutskin",
+          "canvas"
+        ],
+
+        "skill": "tailor",
+
+        "tool_quality": 0,
+        "cost_scaling": 0.1,
+
+        "move_cost": 1000
+      },
+      {
+        "type": "heal",
+
+        "bandages_power": 8,
+        "bleed": 12,
+
+        "move_cost": 7500
+      }
+    ]
+  },
+  {
+    "id": "tailors_kit",
+    "copy-from": "tailors_kit",
+    "type": "TOOL",
+
+    "name": {
+      "str": "tailor's kit"
+    },
+
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+
+        "materials": [
+          "cotton",
+          "leather",
+          "lycra",
+          "nylon",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "kevlar",
+          "kevlar_layered",
+          "neoprene",
+          "gutskin",
+          "canvas"
+        ],
+
+        "skill": "tailor",
+
+        "tool_quality": 1,
+        "cost_scaling": 0.1,
+
+        "move_cost": 800
+      },
+      {
+        "type": "heal",
+
+        "bandages_power": 8,
+        "bleed": 12,
+
+        "move_cost": 7500
+      }
+    ]
+  },
+  {
+    "id": "needle_steel",
+    "copy-from": "needle_steel",
+    "type": "TOOL",
+
+    "name": {
+      "str": "needle"
+    },
+
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+
+        "materials": [
+          "cotton",
+          "leather",
+          "lycra",
+          "nylon",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "kevlar",
+          "kevlar_layered",
+          "gutskin",
+          "canvas"
+        ],
+
+        "skill": "tailor",
+
+        "tool_quality": 0,
+        "cost_scaling": 0.1,
+
+        "move_cost": 1000
+      },
+      {
+        "type": "heal",
+
+        "bandages_power": 8,
+        "bleed": 12,
+
+        "move_cost": 8000
+      }
+    ]
+  },
+  {
+    "id": "needle_wood",
+    "copy-from": "needle_wood",
+    "type": "TOOL",
+
+    "name": {
+      "str": "wooden needle"
+    },
+
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+
+        "materials": [
+          "cotton",
+          "lycra",
+          "nylon",
+          "leather",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "gutskin"
+        ],
+
+        "skill": "tailor",
+
+        "tool_quality": -1,
+        "cost_scaling": 0.1,
+
+        "move_cost": 1500
+      },
+      {
+        "type": "heal",
+
+        "bandages_power": 7,
+        "bleed": 10,
+
+        "move_cost": 8500
+      }
+    ]
+  },
+  {
+    "id": "needle_bone",
+    "copy-from": "needle_bone",
+    "type": "TOOL",
+
+    "name": {
+      "str": "bone needle"
+    },
+
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+
+        "materials": [
+          "cotton",
+          "leather",
+          "lycra",
+          "nylon",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "kevlar",
+          "kevlar_layered",
+          "gutskin",
+          "canvas"
+        ],
+
+        "skill": "tailor",
+
+        "tool_quality": -1,
+        "cost_scaling": 0.1,
+
+        "move_cost": 1300
+      },
+      {
+        "type": "heal",
+
+        "bandages_power": 7,
+        "bleed": 10,
+
+        "move_cost": 8500
+      }
+    ]
+  }
+]
