@@ -122,16 +122,8 @@
 
     "time": "30 s",
 
-    "components": [
-      [["bandage_makeshift", 1]],
-      [
-        ["disinfectant", 1],
-        ["thyme_oil", 1],
-        ["chem_ethanol", 100],
-        ["denat_alcohol", 100],
-        ["methed_alcohol", 100]
-      ]
-    ]
+    "using": [["disinfectants", 1]],
+    "components": [[["bandage_makeshift", 1]]]
   },
 
   {
