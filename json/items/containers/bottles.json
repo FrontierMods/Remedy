@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bottle_plastic_tablets",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      ["https://www.sks-bottle.com/product/307738.html", "dimensions"],
+      [
+        "https://www.sks-bottle.com/product/307680.html",
+        "https://www.sks-bottle.com/product/4893.html",
+        "price"
+      ],
+      [
+        "https://www.sks-bottle.com/info/ProductReplacement73.html",
+        "weight reference"
+      ]
+    ],
+
+    "//notes": ["150 cm3 capacity"],
+
+    "name": {
+      "str": "plastic pill bottle"
+    },
+    "description": "A small white plastic bottle, intended for holding tablets, capsules, or similar kinds of medicine.  Ribbed cap makes it easier to open.",
+
+    "//weight": [
+      "120 cm3 bottle = 14 g",
+      "150 cm3 bottle (this item) = 14 × (150 / 120) = 14 × 1.25 = 17.5 g"
+    ],
+    "weight": "1750 mg",
+    "//dimensions": {
+      "length": "102 mm",
+      "diameter": "55 mm",
+      "raw": "242.34 ml",
+      "trim": 0.05,
+      "notes": [
+        "height (depth) estimated based on material used",
+        "height used in source is likely that of the thickest point of the filled bag"
+      ]
+    },
+    "volume": "230 ml",
+    "longest_side": "102 mm",
+
+    "material": ["plastic"],
+
+    "symbol": ")",
+    "color": "brown",
+    "looks_like": "antibiotics",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "rigid": true,
+        "watertight": true,
+
+        "max_contains_weight": "1 kg",
+        "max_contains_volume": "150 ml",
+        "max_item_volume": "17 ml",
+
+        "sealed_data": { "spoil_multiplier": 0.0 },
+
+        "moves": 400
+      }
+    ],
+
+    "flags": ["COLLAPSE_CONTENTS"],
+
+    "//price": "16 cents / bottle + 1 cent / cap",
+    "price": "17 cent",
+    "price_postapoc": "1 cent"
+  }
+]
