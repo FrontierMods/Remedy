@@ -1,8 +1,10 @@
 [
   {
-    "type": "ammunition_type",
     "id": "suture",
+    "type": "ammunition_type",
+
     "name": "suture",
+
     "default": "thread_suture"
   }
 ]
