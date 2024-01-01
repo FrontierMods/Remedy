@@ -109,7 +109,7 @@
   {
     "type": "recipe",
     "result": "bandage_makeshift_sterilized",
-    "id_suffix": "with_desinfectants",
+    "id_suffix": "with_disinfectants",
 
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
