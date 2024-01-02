@@ -176,6 +176,8 @@
     "//weight": "100 mg drug + 61 mg empty capsule (size 2)",
     "weight": "161 mg",
 
+    "container": "bottle_plastic_tablets_75",
+
     "use_action": {
       "type": "STRONG_ANTIBIOTIC"
     },
