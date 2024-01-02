@@ -49,17 +49,16 @@
       {
         "pocket_type": "CONTAINER",
 
-        "max_contains_volume": "35 ml",
+        "watertight": true,
+        "open_container": true,
+
         "//max_contains_weight": "even though used for 15 g of powder, it looks like it can hold a bit more than that",
         "max_contains_weight": "25 g",
+        "max_contains_volume": "35 ml",
 
-        "airtight": true,
-        "watertight": true,
-        "sealed_data": {
-          "spoil_multiplier": 0
-        },
+        "sealed_data": { "spoil_multiplier": 0 },
 
-        "moves": 50
+        "moves": 70
       }
     ],
 
@@ -105,16 +104,15 @@
       {
         "pocket_type": "CONTAINER",
 
-        "//max_contains_volume": "slightly more than the trauma dressing it's meant for, since the packet is vacuum-fitted to the dressing, but also can't be resealed to full height after being torn open",
-        "max_contains_volume": "35 ml",
+        "watertight": true,
+        "open_container": true,
+
         "//max_contains_weight": "even though used for ~75 g of trauma dressing, it looks like it can hold a bit more than that",
         "max_contains_weight": "100 g",
+        "//max_contains_volume": "slightly more than the trauma dressing it's meant for, since the packet is vacuum-fitted to the dressing, but also can't be resealed to full height after being torn open",
+        "max_contains_volume": "35 ml",
 
-        "airtight": true,
-        "watertight": true,
-        "sealed_data": {
-          "spoil_multiplier": 0
-        },
+        "sealed_data": { "spoil_multiplier": 0 },
 
         "moves": 200
       }
@@ -164,16 +162,15 @@
       {
         "pocket_type": "CONTAINER",
 
-        "//max_contains_volume": "slightly more than the hemostatic dressing it's meant for, since the packet is vacuum-fitted to the dressing, but also can't be resealed to full height after being torn open",
-        "max_contains_volume": "20 ml",
+        "watertight": true,
+        "open_container": true,
+
         "//max_contains_weight": "even though used for ~15 g of trauma dressing, it looks like it can hold a bit more than that",
         "max_contains_weight": "35 g",
+        "//max_contains_volume": "slightly more than the hemostatic dressing it's meant for, since the packet is vacuum-fitted to the dressing, but also can't be resealed to full height after being torn open",
+        "max_contains_volume": "20 ml",
 
-        "airtight": true,
-        "watertight": true,
-        "sealed_data": {
-          "spoil_multiplier": 0
-        },
+        "sealed_data": { "spoil_multiplier": 0 },
 
         "moves": 200
       }
