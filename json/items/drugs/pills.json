@@ -136,7 +136,7 @@
     ],
 
     "name": {
-      "str_sp": "Vancomycin"
+      "str_sp": "vancomycin"
     },
     "description": "A gelatin capsule, blue cap over a salmon-colored body, with a popular narrow-spectrum antibiotic; product of Akorn.  On one of the sides,  \"742\" is imprinted, along with \"250 mg\", indicating the dosage; the other side is without an imprint.  Has a low chance to stifle or cure bacterial infections.  One dose lasts 12 hours.",
 
@@ -169,7 +169,7 @@
     ],
 
     "name": {
-      "str_sp": "Minocycline"
+      "str_sp": "minocycline"
     },
     "description": "A gelatin capsule, gray cap over a yellow body, with a broad-spectrum antibiotic; product of Actavis.  Around the cap,  \"MINOCYCLINE 100\" is imprinted, indicating the dosage; on the body, \"DAN 5695\".  It is very effective against bacterial infection, boosting your chances of recovery significantly.  One dose lasts 12 hours.",
 
