@@ -185,5 +185,39 @@
     "//price": "63.28 USD / 50 capsules = 1.2656 USD",
     "price": "127 cent",
     "price_postapoc": "250 cent"
+  },
+  {
+    "id": "flucytosine",
+    "copy-from": "capsule_size_2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      ["https://www.drugs.com/price-guide/flucytosine", "price"],
+      ["https://www.drugs.com/imprints/nl-771-250-26781.html", "appearance"]
+    ],
+
+    "name": {
+      "str_sp": "flucytosine"
+    },
+    "description": "A gelatin capsule, blue cap over an off-white body, with a powerful antifungal drug; product of Lupin.  Around the cap, \"NL771\" is imprinted; on the body, \"250\", indicating the dosage.  It is very effective against fungal infections, boosting your chances of recovery significantly.  One dose lasts 12 hours.",
+
+    "//weight": "250 mg drug + 61 mg empty capsule (size 2)",
+    "weight": "311 mg",
+
+    "//container": [
+      "should probably be 50 cc",
+      "https://mms.mckesson.com/product/1112812/Sigma-Tau-Pharmaceuticals-42794001008"
+    ],
+    "container": "bottle_plastic_tablets_75",
+
+    "use_action": {
+      "type": "ANTIFUNGAL"
+    },
+
+    "//price": "we take the cheapest possible price (30 [5 × 6] capsules), which is still $32.19 (as of Jan 2024)",
+    "price": "3220 cent",
+    "//price_postapoc": "high barter price per pill due to very limited availability even prior to Cataclysm",
+    "price_postapoc": "4 USD"
   }
 ]
