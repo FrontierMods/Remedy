@@ -66,5 +66,71 @@
     "//price": "16 cents / bottle + 10 cents / cap",
     "price": "26 cent",
     "price_postapoc": "1 cent"
+  },
+  {
+    "id": "bottle_plastic_tablets_75",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      ["https://www.sks-bottle.com/product/307739.html", "dimensions"],
+      [
+        "https://www.sks-bottle.com/product/307678.html",
+        "https://www.sks-bottle.com/product/4891.html",
+        "price"
+      ],
+      [
+        "https://www.sks-bottle.com/info/ProductReplacement73.html",
+        "weight reference"
+      ]
+    ],
+
+    "name": {
+      "str": "small plastic pill bottle"
+    },
+    "description": "A 75-cc white plastic bottle, intended for holding tablets, capsules, or similar kinds of medicine.  Ribbed cap makes it easier to open.",
+
+    "//weight": [
+      "120 cm3 bottle = 14 g",
+      "75 cm3 bottle (this item) = 14 × (75 / 120) = 14 × 0.625 = 8.75 g"
+    ],
+    "weight": "875 mg",
+    "//dimensions": {
+      "length": "81 mm",
+      "diameter": "43 mm",
+      "raw": "117.63 ml",
+      "trim": 0.075
+    },
+    "volume": "109 ml",
+    "longest_side": "102 mm",
+
+    "material": ["plastic"],
+
+    "symbol": ")",
+    "color": "brown",
+    "looks_like": "antibiotics",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "rigid": true,
+        "watertight": true,
+
+        "max_contains_weight": "250 g",
+        "max_contains_volume": "75 ml",
+        "max_item_volume": "17 ml",
+
+        "sealed_data": { "spoil_multiplier": 0.0 },
+
+        "moves": 400
+      }
+    ],
+
+    "flags": ["COLLAPSE_CONTENTS"],
+
+    "//price": "10 cents / bottle + 9 cent / cap",
+    "price": "19 cent",
+    "price_postapoc": "1 cent"
   }
 ]
