@@ -1,0 +1,193 @@
+[
+  {
+    "id": "package_blister_capsules_size_0_10",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      "https://www.hks-health-solutions.com/en/documents/HKS-Contract-manufacturing-brochure_EN_2023-04_LR.pdf",
+      [
+        "https://ftloscience.com/blister-pack-bottles-choosing-drug-packaging/",
+        "weight"
+      ],
+      ["https://www.noventis.cz/finishing", "pocket weight limit"]
+    ],
+
+    "//notes": [
+      "modelled after Shape 3 (70 × 60 mm, capsule size 0)",
+      "other manufacturers indicate that size-0 blisters can also accomodate sizes 1 and 2"
+    ],
+
+    "name": {
+      "str": "10-capsule blister pack"
+    },
+    "description": "A blister pack: a set of plastic pockets on a silvery aluminum backer.  This one is for 10 capsules of size 0.  Contents are sealed by default, preventing their spoilage.  Once a blister is popped, it cannot be resealed.",
+
+    "weight": "3 g",
+    "//dimensions": {
+      "length": "70 mm",
+      "width": "60 mm",
+      "height": "8 mm",
+      "raw": "33.6 ml",
+      "trim": 0.8,
+      "notes": [
+        "height (depth) estimated based on material used",
+        "height used in source is likely that of the thickest point of the filled bag"
+      ]
+    },
+    "volume": "7 ml",
+    "longest_side": "70 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ")",
+    "color": "light_gray",
+
+    "to_hit": -4,
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "//max_contains_weight": "blister cards for oblong capsules specify maximum weight capacity of a single blister as 1000 mg = 1 g",
+        "max_contains_weight": "1 g",
+        "//max_contains_volume": [
+          "bounding box of a size-0 capsule",
+          {
+            "length": "21.6 mm",
+            "diameter": "7.64 mm",
+            "raw": "0.99 ml"
+          }
+        ],
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "max_contains_weight": "1 g",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "max_contains_weight": "1 g",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "max_contains_weight": "1 g",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "max_contains_weight": "1 g",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "max_contains_weight": "1 g",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "max_contains_weight": "1 g",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "max_contains_weight": "1 g",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "max_contains_weight": "1 g",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      },
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "max_contains_weight": "1 g",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      }
+    ],
+
+    "price": "1 cent",
+    "price_postapoc": "0 cent"
+  }
+]
