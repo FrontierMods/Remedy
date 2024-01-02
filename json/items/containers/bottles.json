@@ -1,6 +1,6 @@
 [
   {
-    "id": "bottle_plastic_tablets",
+    "id": "bottle_plastic_tablets_150",
     "type": "GENERIC",
     "category": "container",
 
@@ -22,7 +22,7 @@
     "name": {
       "str": "plastic pill bottle"
     },
-    "description": "A small white plastic bottle, intended for holding tablets, capsules, or similar kinds of medicine.  Ribbed cap makes it easier to open.",
+    "description": "A 150-cc white plastic bottle, intended for holding tablets, capsules, or similar kinds of medicine.  Ribbed cap makes it easier to open.",
 
     "//weight": [
       "120 cm3 bottle = 14 g",
@@ -33,11 +33,7 @@
       "length": "102 mm",
       "diameter": "55 mm",
       "raw": "242.34 ml",
-      "trim": 0.05,
-      "notes": [
-        "height (depth) estimated based on material used",
-        "height used in source is likely that of the thickest point of the filled bag"
-      ]
+      "trim": 0.05
     },
     "volume": "230 ml",
     "longest_side": "102 mm",
@@ -67,8 +63,8 @@
 
     "flags": ["COLLAPSE_CONTENTS"],
 
-    "//price": "16 cents / bottle + 1 cent / cap",
-    "price": "17 cent",
+    "//price": "16 cents / bottle + 10 cents / cap",
+    "price": "26 cent",
     "price_postapoc": "1 cent"
   }
 ]
