@@ -1,0 +1,187 @@
+[
+  {
+    "abstract": "capsule_size_1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      [
+        "https://www.lfacapsulefillers.com/capsule-size-chart",
+        "dimension reference"
+      ],
+      [
+        "https://www.lfacapsulefillers.com/empty-gelatin-capsules-size-1-clear",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "the dimensions in the chart appear to be standard",
+      [
+        "other manufacturers appear to be focusing the same sets of capsule sizes in their otherwise-bespoke designs",
+        "https://www.blisteromar.com/en/macchinari/mini-pack-stht/"
+      ],
+      "therefore, we assume the sizes are standard, and adjust any length deviation to an existing capsule size"
+    ],
+
+    "name": {
+      "str": "capsule, size 1"
+    },
+
+    "//weight": [
+      "average weight of a gelatin capsule",
+      "to be overridden by the capsule"
+    ],
+    "weight": "78 mg",
+    "//dimensions": {
+      "length": "19.4 mm",
+      "diameter": "6.96 mm",
+      "raw": "0.73 ml",
+      "trim": 0.2,
+      "notes": ["volume is per `count` stack"]
+    },
+    "volume": "7 ml",
+    "longest_side": "19 mm",
+
+    "//material": "should be pharmaceutical gelatin",
+    "material": ["powder"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "container": "package_blister_capsules_size_0_10",
+
+    "count": 12,
+    "stackable": true,
+
+    "flags": [
+      "NPC_SAFE",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ]
+  },
+  {
+    "abstract": "capsule_size_2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      [
+        "https://www.lfacapsulefillers.com/capsule-size-chart",
+        "dimension reference"
+      ],
+      [
+        "https://www.lfacapsulefillers.com/empty-gelatin-capsules-size-2-clear",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "capsule, size 2"
+    },
+
+    "//weight": [
+      "average weight of a gelatin capsule",
+      "to be overridden by the capsule"
+    ],
+    "weight": "61 mg",
+    "//dimensions": {
+      "length": "17.6 mm",
+      "diameter": "6.39 mm",
+      "raw": "0.56 ml",
+      "trim": 0.2,
+      "notes": ["volume is per `count` stack"]
+    },
+    "volume": "13 ml",
+    "longest_side": "18 mm",
+
+    "//material": "should be pharmaceutical gelatin",
+    "material": ["powder"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "container": "package_blister_capsules_size_0_10",
+
+    "count": 29,
+    "stackable": true,
+
+    "flags": [
+      "NPC_SAFE",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ]
+  },
+  {
+    "id": "vancomycin",
+    "copy-from": "capsule_size_1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      [
+        "https://www.healthwarehouse.com/vancomycin-250-mg-capsules.html",
+        "price"
+      ],
+      ["https://www.drugs.com/imprints/742-250-mg-19130.html", "appearance"]
+    ],
+
+    "//notes": [
+      "oral form of vancomycin is not normally absorbed by the body and only works in the intenstines",
+      "dosage is noted in most cases to the 4 times a day, making one dose last ~6 hours, not 12",
+      "serious side effects include hearing loss and ears ringing, as well as nausea",
+      "having low chance of curing an infection is not at all how narrow-spectrum antibiotics work, but for now, this is the best we can do"
+    ],
+
+    "name": {
+      "str_sp": "Vancomycin"
+    },
+    "description": "A gelatin capsule, blue cap over a salmon-colored body, with a popular narrow-spectrum antibiotic; product of Akorn.  On one of the sides,  \"742\" is imprinted, along with \"250 mg\", indicating the dosage; the other side is without an imprint.  Has a low chance to stifle or cure bacterial infections.  One dose lasts 12 hours.",
+
+    "//weight": "250 mg drug + 78 mg empty capsule (size 1)",
+    "weight": "328 mg",
+
+    "use_action": {
+      "type": "WEAK_ANTIBIOTIC"
+    },
+
+    "//price": "50 USD / 20 capsules",
+    "price": "250 cent",
+    "price_postapoc": "150 cent"
+  },
+  {
+    "id": "minocycline",
+    "copy-from": "capsule_size_2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      [
+        "https://www.mcguff.com/minocycline-hcl-100mg-50-capsulesbottle",
+        "price"
+      ],
+      [
+        "https://www.drugs.com/imprints/minocycline-100-dan-5695-6991.html",
+        "appearance"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "Minocycline"
+    },
+    "description": "A gelatin capsule, gray cap over a yellow body, with a broad-spectrum antibiotic; product of Actavis.  Around the cap,  \"MINOCYCLINE 100\" is imprinted, indicating the dosage; on the body, \"DAN 5695\".  It is very effective against bacterial infection, boosting your chances of recovery significantly.  One dose lasts 12 hours.",
+
+    "//weight": "100 mg drug + 61 mg empty capsule (size 2)",
+    "weight": "161 mg",
+
+    "use_action": {
+      "type": "STRONG_ANTIBIOTIC"
+    },
+
+    "//price": "63.28 USD / 50 capsules = 1.2656 USD",
+    "price": "127 cent",
+    "price_postapoc": "250 cent"
+  }
+]
