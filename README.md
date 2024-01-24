@@ -22,7 +22,7 @@ _[explainer](https://github.com/FrontierMods/Core/blob/main/documentation/DESIGN
 
 _Remedy_ is currently **in development**.
 
-The latest supported version of the game is **0.G**.
+It aims to support the upcoming **0.H**. The mod will release after 0.H's official release.
 
 # License
 
