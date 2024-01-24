@@ -1,0 +1,167 @@
+[
+  {
+    "abstract": "capsule_size_1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      [
+        "https://www.lfacapsulefillers.com/capsule-size-chart",
+        "dimension reference"
+      ],
+      [
+        "https://www.lfacapsulefillers.com/empty-gelatin-capsules-size-1-clear",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "the dimensions in the chart appear to be standard",
+      [
+        "other manufacturers appear to be focusing the same sets of capsule sizes in their otherwise-bespoke designs",
+        "https://www.blisteromar.com/en/macchinari/mini-pack-stht/"
+      ],
+      "therefore, we assume the sizes are standard, and adjust any length deviation to an existing capsule size"
+    ],
+
+    "name": {
+      "str": "capsule, size 1"
+    },
+
+    "//weight": [
+      "average weight of a gelatin capsule",
+      "to be overridden by the capsule"
+    ],
+    "weight": "78 mg",
+    "//dimensions": {
+      "length": "19.4 mm",
+      "diameter": "6.96 mm",
+      "raw": "0.73 ml",
+      "trim": 0.2,
+      "notes": ["volume is per `count` stack"]
+    },
+    "volume": "7 ml",
+    "longest_side": "19 mm",
+
+    "//material": "should be pharmaceutical gelatin",
+    "material": ["powder"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "container": "package_blister_capsules_size_0_10",
+
+    "count": 12,
+    "stackable": true,
+
+    "flags": [
+      "NPC_SAFE",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ]
+  },
+  {
+    "abstract": "capsule_size_2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      [
+        "https://www.lfacapsulefillers.com/capsule-size-chart",
+        "dimension reference"
+      ],
+      [
+        "https://www.lfacapsulefillers.com/empty-gelatin-capsules-size-2-clear",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "capsule, size 2"
+    },
+
+    "//weight": [
+      "average weight of a gelatin capsule",
+      "to be overridden by the capsule"
+    ],
+    "weight": "61 mg",
+    "//dimensions": {
+      "length": "17.6 mm",
+      "diameter": "6.39 mm",
+      "raw": "0.56 ml",
+      "trim": 0.2,
+      "notes": ["volume is per `count` stack"]
+    },
+    "volume": "13 ml",
+    "longest_side": "18 mm",
+
+    "//material": "should be pharmaceutical gelatin",
+    "material": ["powder"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "container": "package_blister_capsules_size_0_10",
+
+    "count": 29,
+    "stackable": true,
+
+    "flags": [
+      "NPC_SAFE",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ]
+  },
+  {
+    "abstract": "tablet_oval",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      ["https://www.drugs.com/imprints/augmentin-500-125-90.html", "length"],
+      [
+        "https://www.scientistlive.com/content/tablet-design-using-cad-software",
+        "dimension reference"
+      ]
+    ],
+
+    "//notes": [
+      "even though the CAD design in source has a stated total volume, we calculate volume locally based on dimensions due to length based on an actual tablet in use in the mod"
+    ],
+
+    "name": {
+      "str": "oval tablet"
+    },
+
+    "//dimensions": {
+      "length": "20 mm",
+      "width": "8.57 mm",
+      "height": "6.13 mm",
+      "raw": "1.05 ml",
+      "trim": 0.05,
+      "notes": [
+        "width and height acquired from width and height of CAD-designed tablet multiplied by the ratio of length of Augmentin tablet (20 mm) to length of CAD-designed tablet (22.23 mm)"
+      ]
+    },
+    "volume": "1 ml",
+    "longest_side": "20 mm",
+
+    "material": ["powder"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "container": "bottle_plastic_tablets_150",
+
+    "stackable": true,
+
+    "flags": [
+      "NPC_SAFE",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ]
+  }
+]

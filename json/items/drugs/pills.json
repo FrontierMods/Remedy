@@ -1,120 +1,5 @@
 [
   {
-    "abstract": "capsule_size_1",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-
-    "//sources": [
-      [
-        "https://www.lfacapsulefillers.com/capsule-size-chart",
-        "dimension reference"
-      ],
-      [
-        "https://www.lfacapsulefillers.com/empty-gelatin-capsules-size-1-clear",
-        "price"
-      ]
-    ],
-
-    "//notes": [
-      "the dimensions in the chart appear to be standard",
-      [
-        "other manufacturers appear to be focusing the same sets of capsule sizes in their otherwise-bespoke designs",
-        "https://www.blisteromar.com/en/macchinari/mini-pack-stht/"
-      ],
-      "therefore, we assume the sizes are standard, and adjust any length deviation to an existing capsule size"
-    ],
-
-    "name": {
-      "str": "capsule, size 1"
-    },
-
-    "//weight": [
-      "average weight of a gelatin capsule",
-      "to be overridden by the capsule"
-    ],
-    "weight": "78 mg",
-    "//dimensions": {
-      "length": "19.4 mm",
-      "diameter": "6.96 mm",
-      "raw": "0.73 ml",
-      "trim": 0.2,
-      "notes": ["volume is per `count` stack"]
-    },
-    "volume": "7 ml",
-    "longest_side": "19 mm",
-
-    "//material": "should be pharmaceutical gelatin",
-    "material": ["powder"],
-
-    "symbol": "!",
-    "color": "white",
-
-    "container": "package_blister_capsules_size_0_10",
-
-    "count": 12,
-    "stackable": true,
-
-    "flags": [
-      "NPC_SAFE",
-      "IRREPLACEABLE_CONSUMABLE",
-      "WATER_DISSOLVE",
-      "EDIBLE_FROZEN"
-    ]
-  },
-  {
-    "abstract": "capsule_size_2",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-
-    "//sources": [
-      [
-        "https://www.lfacapsulefillers.com/capsule-size-chart",
-        "dimension reference"
-      ],
-      [
-        "https://www.lfacapsulefillers.com/empty-gelatin-capsules-size-2-clear",
-        "price"
-      ]
-    ],
-
-    "name": {
-      "str": "capsule, size 2"
-    },
-
-    "//weight": [
-      "average weight of a gelatin capsule",
-      "to be overridden by the capsule"
-    ],
-    "weight": "61 mg",
-    "//dimensions": {
-      "length": "17.6 mm",
-      "diameter": "6.39 mm",
-      "raw": "0.56 ml",
-      "trim": 0.2,
-      "notes": ["volume is per `count` stack"]
-    },
-    "volume": "13 ml",
-    "longest_side": "18 mm",
-
-    "//material": "should be pharmaceutical gelatin",
-    "material": ["powder"],
-
-    "symbol": "!",
-    "color": "white",
-
-    "container": "package_blister_capsules_size_0_10",
-
-    "count": 29,
-    "stackable": true,
-
-    "flags": [
-      "NPC_SAFE",
-      "IRREPLACEABLE_CONSUMABLE",
-      "WATER_DISSOLVE",
-      "EDIBLE_FROZEN"
-    ]
-  },
-  {
     "id": "vancomycin",
     "copy-from": "capsule_size_1",
     "type": "COMESTIBLE",
@@ -139,6 +24,10 @@
       "str_sp": "vancomycin"
     },
     "description": "A gelatin capsule, blue cap over a salmon-colored body, with a popular narrow-spectrum antibiotic; product of Akorn.  On one of the sides,  \"742\" is imprinted, along with \"250 mg\", indicating the dosage; the other side is without an imprint.  Has a low chance to stifle or cure bacterial infections.  One dose lasts 12 hours.",
+
+    "//variants": [
+      "sold commercially as Vancomycin Hydrochloride, including by Akorn"
+    ],
 
     "//weight": "250 mg drug + 78 mg empty capsule (size 1)",
     "weight": "328 mg",
@@ -173,6 +62,11 @@
     },
     "description": "A gelatin capsule, gray cap over a yellow body, with a broad-spectrum antibiotic; product of Actavis.  Around the cap,  \"MINOCYCLINE 100\" is imprinted, indicating the dosage; on the body, \"DAN 5695\".  It is very effective against bacterial infection, boosting your chances of recovery significantly.  One dose lasts 12 hours.",
 
+    "//variants": [
+      "appears to be sold as Minocycline commercially by Actavis",
+      "other brand names include Dynacin, Minocin, Minocin PAC, Minolira, Solodyn, Ximino, Vectrin, Myrac"
+    ],
+
     "//weight": "100 mg drug + 61 mg empty capsule (size 2)",
     "weight": "161 mg",
 
@@ -202,6 +96,12 @@
     },
     "description": "A gelatin capsule, blue cap over an off-white body, with a powerful antifungal drug; product of Lupin.  Around the cap, \"NL771\" is imprinted; on the body, \"250\", indicating the dosage.  It is very effective against fungal infections, boosting your chances of recovery significantly.  One dose lasts 12 hours.",
 
+    "//variants": [
+      "commerically sold by Valeant(?) as Ancobon",
+      "Valeant has for a long time maintained a monopoly on this drug, making it ridiculously-expensive",
+      "another trade name is Diflucan"
+    ],
+
     "//weight": "250 mg drug + 61 mg empty capsule (size 2)",
     "weight": "311 mg",
 
@@ -216,7 +116,7 @@
     },
 
     "//price": "we take the cheapest possible price (30 [5 × 6] capsules), which is still $32.19 (as of Jan 2024)",
-    "price": "3220 cent",
+    "price": "107 cent",
     "//price_postapoc": "high barter price per pill due to very limited availability even prior to Cataclysm",
     "price_postapoc": "4 USD"
   }
