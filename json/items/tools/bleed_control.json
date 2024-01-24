@@ -28,9 +28,9 @@
       "diameter": "0.2 mm",
       "raw": "0.6 µl",
       "trim": 0.05,
-      "result": "0.57 µl"
+      "result": "0.57 µl",
+      "notes": ["volume is per `count`", "1 ml / 0.57 µl = 1750"]
     },
-    "//volume": "rounded to the nearest full 1 ml",
     "volume": "1 ml",
     "//longest_side": [
       "calculated as length between two ends of the needle",
@@ -55,6 +55,9 @@
     "repairs_like": "needle_steel",
 
     "ammo": ["suture"],
+
+    "stackable": true,
+    "count": 1750,
 
     "pocket_data": [
       {
@@ -82,8 +85,8 @@
 
     "flags": ["STAB"],
 
-    "//price": "$25.20 / 12 needles = $2.1 / needle ≈ $2",
-    "price": "2 USD",
+    "//price": "$25.20 / 12 needles = $2.1 / needle",
+    "price": "210 cent",
     "price_postapoc": "1 cent"
   }
 ]
