@@ -43,8 +43,7 @@
     "volume": "7 ml",
     "longest_side": "19 mm",
 
-    "//material": "should be pharmaceutical gelatin",
-    "material": ["powder"],
+    "material": ["drug_filler"],
 
     "symbol": "!",
     "color": "white",
@@ -96,8 +95,7 @@
     "volume": "13 ml",
     "longest_side": "18 mm",
 
-    "//material": "should be pharmaceutical gelatin",
-    "material": ["powder"],
+    "material": ["drug_filler"],
 
     "symbol": "!",
     "color": "white",
@@ -148,7 +146,7 @@
     "volume": "1 ml",
     "longest_side": "20 mm",
 
-    "material": ["powder"],
+    "material": ["drug_filler"],
 
     "symbol": "!",
     "color": "white",
