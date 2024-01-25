@@ -1,6 +1,30 @@
 [
   {
+    "abstract": "capsule",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str": "capsule"
+    },
+
+    "material": ["drug_filler"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "stackable": true,
+
+    "flags": [
+      "NPC_SAFE",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ]
+  },
+  {
     "abstract": "capsule_size_1",
+    "copy-from": "capsule",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -43,25 +67,13 @@
     "volume": "7 ml",
     "longest_side": "19 mm",
 
-    "material": ["drug_filler"],
-
-    "symbol": "!",
-    "color": "white",
-
     "container": "package_blister_capsules_size_0_10",
 
-    "count": 12,
-    "stackable": true,
-
-    "flags": [
-      "NPC_SAFE",
-      "IRREPLACEABLE_CONSUMABLE",
-      "WATER_DISSOLVE",
-      "EDIBLE_FROZEN"
-    ]
+    "count": 12
   },
   {
     "abstract": "capsule_size_2",
+    "copy-from": "capsule",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
 
@@ -95,21 +107,8 @@
     "volume": "13 ml",
     "longest_side": "18 mm",
 
-    "material": ["drug_filler"],
-
-    "symbol": "!",
-    "color": "white",
-
     "container": "package_blister_capsules_size_0_10",
 
-    "count": 29,
-    "stackable": true,
-
-    "flags": [
-      "NPC_SAFE",
-      "IRREPLACEABLE_CONSUMABLE",
-      "WATER_DISSOLVE",
-      "EDIBLE_FROZEN"
-    ]
+    "count": 29
   }
 ]
