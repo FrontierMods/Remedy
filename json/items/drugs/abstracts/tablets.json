@@ -1,0 +1,52 @@
+[
+  {
+    "abstract": "tablet_oval",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      ["https://www.drugs.com/imprints/augmentin-500-125-90.html", "length"],
+      [
+        "https://www.scientistlive.com/content/tablet-design-using-cad-software",
+        "dimension reference"
+      ]
+    ],
+
+    "//notes": [
+      "even though the CAD design in source has a stated total volume, we calculate volume locally based on dimensions due to length based on an actual tablet in use in the mod"
+    ],
+
+    "name": {
+      "str": "oval tablet"
+    },
+
+    "//dimensions": {
+      "length": "20 mm",
+      "width": "8.57 mm",
+      "height": "6.13 mm",
+      "raw": "1.05 ml",
+      "trim": 0.05,
+      "notes": [
+        "width and height acquired from width and height of CAD-designed tablet multiplied by the ratio of length of Augmentin tablet (20 mm) to length of CAD-designed tablet (22.23 mm)"
+      ]
+    },
+    "volume": "1 ml",
+    "longest_side": "20 mm",
+
+    "material": ["drug_filler"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "container": "bottle_plastic_tablets_150",
+
+    "stackable": true,
+
+    "flags": [
+      "NPC_SAFE",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ]
+  }
+]
