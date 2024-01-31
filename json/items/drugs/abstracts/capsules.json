@@ -110,5 +110,45 @@
     "container": "package_blister_capsules_size_0_10",
 
     "count": 29
+  },
+  {
+    "abstract": "capsule_size_3",
+    "copy-from": "capsule",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      [
+        "https://www.lfacapsulefillers.com/capsule-size-chart",
+        "dimension reference"
+      ],
+      [
+        "https://www.lfacapsulefillers.com/empty-gelatin-capsules-size-3-clear",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "capsule, size 3"
+    },
+
+    "//weight": [
+      "average weight of a gelatin capsule",
+      "to be overridden by the capsule"
+    ],
+    "weight": "48 mg",
+    "//dimensions": {
+      "length": "15.7 mm",
+      "diameter": "5.85 mm",
+      "raw": "0.42 ml",
+      "trim": 0.1,
+      "notes": ["volume is per `count` stack"]
+    },
+    "volume": "3 ml",
+    "longest_side": "16 mm",
+
+    "container": "package_blister_capsules_size_0_10",
+
+    "count": 8
   }
 ]
