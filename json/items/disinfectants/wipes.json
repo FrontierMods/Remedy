@@ -1,0 +1,86 @@
+[
+  {
+    "id": "alcohol_wipe_bd",
+    "type": "GENERIC",
+    "category": "drugs",
+
+    "//sources": [
+      "https://www.bd.com/en-us/products-and-solutions/products/product-page.326895",
+      [
+        "https://www.bd.com/en-sea/offerings/capabilities/diabetes-care/bd-alcohol-swabs",
+        "dimensions (length, width)"
+      ],
+      ["https://stevens.ca/product/bd-alcohol-swabs--333-326910", "weight"],
+      [
+        "https://honestmed.com/shop/Medical-Facility/Wipes-&-Prep-Pads/Alcohol-Prep-Pads/408156",
+        "price"
+      ]
+    ],
+
+    "//notes": ["this one is intended", "non-sterile"],
+
+    "name": {
+      "str": "alcohol wipe"
+    },
+    "description": "A small wet wipe saturated with a 70% solution of isopropyl alcohol.  Used for personal hygiene or disinfecting small wounds.",
+
+    "//weight": [
+      "we presume that the weight in source is that of the whole package (wipe and sachet), rather than just the wipe",
+      "based on research, the wipe might be the heavier part of it, because it would absorb a significant amount of alcohol solution",
+      "since there seems to be no better source, we presume that the wipe itself weighs ~1 g, with the rest going to the (fairly-lightweight) foil sachet"
+    ],
+    "weight": "1 g",
+    "//dimensions": {
+      "length": "2.8 cm",
+      "width": "3.4 cm",
+      "height": "0.5 mm",
+      "raw": "0.476 ml",
+      "trim": 0.1,
+      "notes": [
+        "height estimated based on visual reference",
+        [
+          "trim is to account for the size of the package",
+          "we presume that listed are the dimensions of the package, rather than the swab"
+        ],
+        "volume is per `count`"
+      ]
+    },
+    "volume": "3 ml",
+
+    "material": [
+      {
+        "type": "isopropyl",
+        "portion": 7
+      },
+      {
+        "type": "water",
+        "portion": 3
+      },
+      {
+        "type": "cotton",
+        "portion": 1
+      }
+    ],
+
+    "symbol": ",",
+    "color": "white",
+
+    "count": 7,
+    "container": "package_alcohol_wipe_bd",
+
+    "use_action": {
+      "type": "heal",
+
+      "disinfectant_power": 2,
+      "bite": 0.15,
+
+      "move_cost": 800
+    },
+
+    "flags": ["SINGLE_USE", "IRREPLACEABLE_CONSUMABLE"],
+
+    "//price": "we estimate the sachet costs 3¢",
+    "price": "26 cent",
+    "price_postapoc": "50 cent"
+  }
+]
