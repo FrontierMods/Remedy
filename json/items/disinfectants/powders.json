@@ -1,0 +1,68 @@
+[
+  {
+    "id": "antiseptic_powder_iodine_betadine",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://www.amazon.com/Betadine-Antiseptic-Powder-Spray-Scrapes/dp/B08CJ7RYHR",
+      [
+        "https://static1.squarespace.com/static/51c53868e4b0c5a944a4b602/t/564c43b0e4b05fdef9fbc8a1/1447838640593/PDS-PVI-USP-R0.pdf",
+        "powder density"
+      ],
+      ["https://www.china-sups.com/en/product/en_c_wpuyiiyput.html", "price"]
+    ],
+
+    "//notes": [
+      [
+        "base game uses BFI (bismuth formic iodine) powder for this",
+        "quick overview of the market options suggest this is not a viable compound",
+        "it isn't sold en masse, and whatever is sold, sold at exorbitant prices ($350 on eBay)"
+      ],
+      [
+        "we determine the volume of the powder based on its density and the net weight of the powder in the commercial product in source",
+        "density source states density for a ~10% powder (i.e., ~10% available iodine in the powder), which may have a different density from that of a 5% powder (this item)",
+        "lacking better data, we presume the difference to not be significant as we calculate volume",
+        "at 0.65 g/mL and with the product supplying 2 oz = 56.699 g of powder, the powder takes up 87.229 mL",
+        "globally, products exist in even-grammage proportions, like 55 g/bottle, which would be a lot easier to reason about",
+        "https://ph.betadine.global/en/ph/product-category/product/wound-care/povidone-iodine-betadine-dry-powder-spray",
+        "if we assume one dose to be 5 g, it takes up ~8 mL"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "antiseptic powder"
+    },
+    "description": "A dry-powder antiseptic compound, with 5% povidone-iodine, also known as Betadine®, as the active component.  Commonly used to disinfect minor wounds.  Should be applied in thin layers over the wound.  Not advised for use with deep or serious wounds, as well as internally.",
+
+    "weight": "5 g",
+    "volume": "8 ml",
+
+    "material": ["powder"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "container": "bottle_plastic_spray_betadine",
+
+    "use_action": {
+      "type": "heal",
+
+      "disinfectant_power": 3,
+      "bite": 0.35,
+
+      "move_cost": 900
+    },
+
+    "flags": [
+      "NO_INGEST",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ],
+
+    "//price": "assuming $60/kg, price for 5 g",
+    "price": "30 cent",
+    "price_postapoc": "50 cent"
+  }
+]
