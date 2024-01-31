@@ -31,5 +31,47 @@
     "//price": "128 USD / 60 tablets = 2.1(3) USD",
     "price": "213 cent",
     "price_postapoc": "2 USD"
+  },
+  {
+    "id": "albendazole",
+    "copy-from": "tablet_round",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://gskpro.com/en-ng/deeplink/augmentin/",
+      ["https://www.drugs.com/price-guide/albendazole", "price"],
+      ["https://www.drugs.com/imprints/v32-28411.html", "appearance"]
+    ],
+
+    "//notes": [
+      "antihelmintic, rather than strictly antiparasitic",
+      "nitazoxanide would be the broad-spectrum equivalent, having an effect on a wide variety of parasites"
+    ],
+
+    "name": {
+      "str_sp": "albendazole"
+    },
+    "description": "An off-white oval tablet with a popular extended-spectrum antibiotic; product of GSK.  On one side,  \"AUGMENTIN\" is imprinted; on the other, \"500 / 125\", indicating the dosage of its two components: amoxicillin (500 mg) and clavulanic acid (125 mg).  Has a moderate effect on bacterial infections.  One dose lasts 12 hours.",
+
+    "weight": "200 mg",
+
+    "//variants": ["also sold under the trade name Albenza"],
+
+    "//container": [
+      "sold as two tablets per bottle",
+      "https://www.camberpharma.com/products/albendazole/",
+      "likely to be a large bottle due to the listed weight of 0.035 lbs = 15.876 g",
+      "https://www.camberpharma.com/wp-content/uploads/2020/07/Albendazole-Tablets-USP-200-mg-v2.pdf"
+    ],
+    "container": "bottle_plastic_tablets_150",
+
+    "use_action": {
+      "type": "ANTIPARASITIC"
+    },
+
+    "//price": "128 USD / 60 tablets = 2.1(3) USD",
+    "price": "213 cent",
+    "price_postapoc": "2 USD"
   }
 ]

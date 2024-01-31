@@ -48,5 +48,54 @@
       "WATER_DISSOLVE",
       "EDIBLE_FROZEN"
     ]
+  },
+  {
+    "abstract": "tablet_oval",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      ["https://www.drugs.com/imprints/logo-110-29058.html", "diameter"],
+      [
+        "https://www.scientistlive.com/content/tablet-design-using-cad-software",
+        "thickness (height)"
+      ]
+    ],
+
+    "//notes": [
+      "we assume the diameter of a pill based on the antiparasitic drug albendazole",
+      "we also assume that the thickness of the round tablet remains the same as for the oval one"
+    ],
+
+    "name": {
+      "str": "round tablet"
+    },
+
+    "//dimensions": {
+      "diameter": "12 mm",
+      "height": "6.81 mm",
+      "raw": "0.43 ml",
+      "trim": 0.05,
+      "notes": ["volume is per `count`"]
+    },
+    "volume": "2 ml",
+    "longest_side": "12 mm",
+
+    "material": ["drug_filler"],
+
+    "symbol": "!",
+    "color": "white",
+
+    "container": "bottle_plastic_tablets_150",
+
+    "count": 5,
+    "stackable": true,
+
+    "flags": [
+      "NPC_SAFE",
+      "IRREPLACEABLE_CONSUMABLE",
+      "WATER_DISSOLVE",
+      "EDIBLE_FROZEN"
+    ]
   }
 ]
