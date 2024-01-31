@@ -178,5 +178,76 @@
 
     "price": "1 cent",
     "price_postapoc": "0 cent"
+  },
+  {
+    "id": "package_alcohol_wipe_bd",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      "https://www.bd.com/en-sea/offerings/capabilities/diabetes-care/bd-alcohol-swabs",
+      ["https://stevens.ca/product/bd-alcohol-swabs--333-326910", "weight"],
+      ["https://bowepack.com/products/3g-foil-pouch", "price reference"]
+    ],
+
+    "//notes": [
+      "we assume the dimensions refer to the package, rather than the swab"
+    ],
+
+    "name": {
+      "str": "alcohol wipe sachet"
+    },
+    "description": "A small white tear-open packet with green lettering.  After the logo of the manufacturer, BD, the larger text says \"ALCOHOL SWAB\", followed by smaller.  On the back, there are instructions for application of the hemostatic trauma dressing it contains.",
+
+    "//weight": [
+      "we presume that the weight in source is that of the whole package (wipe and sachet), rather than just the wipe",
+      "based on research, the wipe might be the heavier part of it, because it would absorb a significant amount of alcohol solution",
+      "since there seems to be no better source, we presume that the wipe itself weighs ~1 g, with the rest going to the (fairly-lightweight) foil sachet"
+    ],
+    "weight": "750 mg",
+    "//dimensions": {
+      "length": "2.8 cm",
+      "width": "3.4 cm",
+      "height": "0.05 mm",
+      "raw": "0.0476 ml",
+      "trim": 0,
+      "notes": [
+        "height estimated based on material used",
+        "volume is per `count`"
+      ]
+    },
+    "volume": "1 ml",
+    "longest_side": "34 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ")",
+    "color": "light_gray",
+    "looks_like": "bag_zipper",
+
+    "to_hit": -3,
+
+    "count": 21,
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "//max_contains_weight": "double the weight of the wipe, just in case",
+        "max_contains_weight": "2 g",
+        "//max_contains_volume": "roughly double the volume of a wipe",
+        "max_contains_volume": "1 ml",
+
+        "sealed_data": { "spoil_multiplier": 0 },
+
+        "moves": 200
+      }
+    ],
+
+    "price": "1 cent",
+    "price_postapoc": "0 cent"
   }
 ]
