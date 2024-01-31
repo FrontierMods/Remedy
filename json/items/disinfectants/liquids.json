@@ -1,0 +1,66 @@
+[
+  {
+    "id": "antiseptic_ipa_70percent",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      [
+        "https://www.fishersci.com/shop/products/isopropyl-alcohol-certified-70-v-v-labchem-2/LC157601",
+        "density",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "https://firstaidmart.com/antiseptic-pump-spray-3-oz-m5081.html",
+      "alternative option"
+    ],
+
+    "name": {
+      "str_sp": "alcohol-based antiseptic"
+    },
+    "description": "A 70% isopropyl alcohol solution.  Commonly used as a potent antiseptic.  Could be used to disinfect open wounds.",
+
+    "//weight": "1 fl oz of antiseptic @ 0.88 g/ml = 29.57 ml × 0.88 g/ml = 26.0216 g",
+    "weight": "26 g",
+    "volume": "30 ml",
+
+    "material": [
+      {
+        "type": "isopropyl",
+        "portion": 7
+      },
+      {
+        "type": "water",
+        "portion": 3
+      }
+    ],
+
+    "symbol": "~",
+    "color": "light_cyan",
+
+    "freezing_point": -56,
+    "phase": "liquid",
+
+    "container": "bottle_plastic_spray_4oz",
+
+    "use_action": {
+      "type": "heal",
+
+      "disinfectant_power": 4,
+      "bite": 0.8,
+
+      "move_cost": 3000
+    },
+
+    "flags": ["NO_INGEST", "IRREPLACEABLE_CONSUMABLE", "WATER_DISSOLVE"],
+
+    "//price": [
+      "$53.25 / 500 mL ≈ $3.19 / 1 fl oz",
+      "we presume the bottle costs $0.05"
+    ],
+    "price": "319 cent",
+    "price_postapoc": "12 cent"
+  }
+]
