@@ -119,5 +119,46 @@
     "price": "107 cent",
     "//price_postapoc": "high barter price per pill due to very limited availability even prior to Cataclysm",
     "price_postapoc": "4 USD"
+  },
+  {
+    "id": "prozac",
+    "copy-from": "capsule_size_3",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      ["https://www.drugs.com/price-guide/prozac", "price"],
+      [
+        "https://www.healthdirect.gov.au/medicines/brand/amt,2954011000036108/prozac",
+        "appearance"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "Prozac"
+    },
+    "description": "A gelatin capsule, light-green cap over a yellowish-white body, with a prescription-grade antidepressant; product of Eli Lilly.  On both the body and the cap, \"Lilly 3105\" is imprinted.  It offsets the mood negatives of a depression.  It has a small potential for forming a habit.",
+
+    "//variants": [
+      "available generically as fluoxetine",
+      "other brand names include Sarafem, Rapiflux, Selfemra"
+    ],
+
+    "//weight": "20 mg drug + 48 mg empty capsule (size 3)",
+    "weight": "68 mg",
+
+    "//container": [
+      "could also be blister pack",
+      "a common package appears to be 2 × 14-pill blister pack"
+    ],
+    "container": "bottle_plastic_tablets_75",
+
+    "use_action": {
+      "type": "PROZAC"
+    },
+
+    "//price": "price for a 20 mg formulation in 30-capsule bottle",
+    "price": "1568 cent",
+    "price_postapoc": "4 USD"
   }
 ]
