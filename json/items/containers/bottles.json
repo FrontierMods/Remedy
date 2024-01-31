@@ -193,5 +193,69 @@
 
     "price": "28 cent",
     "price_postapoc": "1 cent"
+  },
+  {
+    "id": "bottle_plastic_spray_betadine",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      [
+        "https://www.amazon.com/Betadine-Antiseptic-Powder-Spray-Scrapes/dp/B08CJ7RYHR",
+        "dimensions"
+      ],
+      [
+        "https://www.lechanpackage.com/product-refillable-aluminum-fine-spray-bottle-leak-proof.html",
+        "weight"
+      ],
+      [
+        "https://www.ucan-packaging.com/aluminum-bottles/metal-spray-bottle/100ml-spray.html",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "Betadine® spray bottle"
+    },
+    "description": "An aluminum spray bottle with an orange cap.  The body is decorated in orange.  On the front, it says \"BETADINE® antiseptic\" and \"Dry Powder Spray\".  Non-refillable.",
+
+    "//weight": "weight is assumed to include the spray pump and the cap",
+    "weight": "40 g",
+    "//dimensions": {
+      "length": "4.92 in",
+      "diameter": "1.77 in",
+      "raw": "198.38 ml",
+      "trim": 0.125
+    },
+    "volume": "174 ml",
+    "longest_side": "125 mm",
+
+    "material": ["aluminum", "plastic"],
+
+    "symbol": "!",
+    "color": "white",
+    "looks_like": "liq_bandage_spray",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "rigid": true,
+        "watertight": true,
+
+        "max_contains_weight": "100 g",
+        "max_contains_volume": "100 ml",
+        "max_item_volume": "8 ml",
+
+        "item_restriction": ["antiseptic_powder_iodine_betadine"],
+
+        "sealed_data": { "spoil_multiplier": 0.0 }
+      }
+    ],
+
+    "flags": ["COLLAPSE_CONTENTS", "NO_UNLOAD", "NO_RELOAD"],
+
+    "price": "61 cent",
+    "price_postapoc": "1 cent"
   }
 ]
