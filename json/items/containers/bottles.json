@@ -132,5 +132,66 @@
     "//price": "10 cents / bottle + 9 cent / cap",
     "price": "19 cent",
     "price_postapoc": "1 cent"
+  },
+  {
+    "id": "bottle_plastic_spray_4oz",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      [
+        "https://firstaidmart.com/70-isopropyl-alcohol-pump-spray-4-oz-m5123.html",
+        "dimensions",
+        "weight"
+      ],
+      [
+        "https://www.midwestbottles.com/Plastic-Bottles/4-oz.-Natural-Cylinder-Round-20-410-HDPE-Semi-Opaque-Sqeezable-Plastic-Bottle-Drug-Plastics/",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "4 oz spray bottle"
+    },
+    "description": "A 4 fl oz white plastic spray bottle with a transparent cap to protect from accidental discharge.  Could be refilled by opening the pump cap.",
+
+    "//weight": "0.27 lbs = 122.47 g - 26.0216 g [weight of IPA solution] × 4 = 18.3836 g",
+    "weight": "18 g",
+    "//dimensions": {
+      "length": "5.5 in",
+      "diameter": "1.75 in",
+      "raw": "216.79 ml",
+      "trim": 0.15
+    },
+    "volume": "184 ml",
+    "longest_side": "140 mm",
+
+    "material": ["plastic"],
+
+    "symbol": "!",
+    "color": "white",
+    "looks_like": "liq_bandage_spray",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "rigid": true,
+        "watertight": true,
+
+        "max_contains_weight": "250 g",
+        "max_contains_volume": "125 ml",
+        "max_item_volume": "30 ml",
+
+        "sealed_data": { "spoil_multiplier": 0.0 },
+
+        "moves": 800
+      }
+    ],
+
+    "flags": ["COLLAPSE_CONTENTS"],
+
+    "price": "28 cent",
+    "price_postapoc": "1 cent"
   }
 ]
