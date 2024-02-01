@@ -66,5 +66,57 @@
     "id": ["disinfectant_makeshift"],
     "type": "MIGRATION",
     "replace": "chem_ethanol"
+  },
+
+  {
+    "id": ["antibiotics"],
+    "type": "MIGRATION",
+    "replace": "augmentin"
+  },
+  {
+    "id": ["strong_antibiotic"],
+    "type": "MIGRATION",
+    "replace": "minocycline"
+  },
+  {
+    "id": ["weak_antibiotic"],
+    "type": "MIGRATION",
+    "replace": "vancomycin"
+  },
+  {
+    "id": ["antifungal"],
+    "type": "MIGRATION",
+    "replace": "flucytosine"
+  },
+  {
+    "id": ["antifungal"],
+    "type": "MIGRATION",
+    "replace": "flucytosine"
+  },
+
+  {
+    "id": ["alcohol_wipes"],
+    "type": "MIGRATION",
+    "replace": "alcohol_wipe_bd"
+  },
+  {
+    "id": ["antiseptic"],
+    "type": "MIGRATION",
+    "replace": "antiseptic_ipa_70percent"
+  },
+  {
+    "id": ["bfipowder"],
+    "type": "MIGRATION",
+    "replace": "antiseptic_powder_iodine_betadine"
+  },
+  {
+    "id": ["disinrag"],
+    "type": "MIGRATION",
+    "replace": "cloth_antiseptic"
+  },
+  {
+    "id": ["disincotton_ball"],
+    "type": "MIGRATION",
+    "replace": "cotton_balls_antiseptic"
   }
 ]
