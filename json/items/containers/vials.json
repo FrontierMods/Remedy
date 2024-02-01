@@ -21,7 +21,7 @@
     "name": {
       "str": "amber vial"
     },
-    "description": "A 13-dram (~48 ml) amber-colored translucent plastic bottle.  Meant to hold prescription-grade medication: pills  Ribbed cap makes it easier to open.",
+    "description": "A 13-dram (~48 ml) amber-colored translucent plastic bottle.  Meant to hold prescription-grade medication: pills and tablets, though not powders or liquids.  Ribbed cap makes it easier to open.",
 
     "//weight": [
       "weight reference bottle @ 16 dram is 0.027 lbs = 12.247 g",
