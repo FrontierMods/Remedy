@@ -1,0 +1,146 @@
+[
+  {
+    "result": "fungicide",
+    "id_suffix": "from_normal_chemicals",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+
+    "skill_used": "chemistry",
+    "skills_required": ["survival", 1],
+
+    "difficulty": 2,
+    "time": "5 m",
+
+    "book_learn": [
+      ["textbook_chemistry", 2],
+      ["adv_chemistry", 2],
+      ["pocket_survival", 2],
+      ["atomic_survival", 2],
+      ["textbook_survival", 1],
+      ["survival_book", 3],
+      ["recipe_labchem", 2]
+    ],
+
+    "proficiencies": [
+      { "proficiency": "prof_intro_chemistry" },
+      { "proficiency": "prof_organic_chemistry" },
+      { "proficiency": "prof_intro_chem_synth" }
+    ],
+
+    "qualities": [{ "id": "CHEM", "level": 2 }],
+    "tools": [[["surface_heat", 2, "LIST"]]],
+    "//components": ["`disinfectant` 20× → 2×"],
+    "components": [
+      [
+        ["disinfectant", 2],
+        ["oxy_powder", 100]
+      ],
+      [["bleach", 5]]
+    ],
+
+    "charges": 400,
+
+    "flags": ["SECRET"]
+  },
+  {
+    "result": "medical_sample",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+
+    "skill_used": "chemistry",
+    "skills_required": ["firstaid", 3],
+
+    "difficulty": 7,
+    "time": "5 m",
+    "batch_time_factors": [20, 5],
+
+    "book_learn": [
+      ["recipe_serum", 4],
+      ["recipe_labchem", 4]
+    ],
+
+    "proficiencies": [
+      { "proficiency": "prof_intro_chemistry" },
+      { "proficiency": "prof_organic_chemistry" },
+      { "proficiency": "prof_intro_chem_synth" },
+      { "proficiency": "prof_chem_synth" }
+    ],
+
+    "//components": ["`disinfectant` 25× → 3×"],
+    "components": [
+      [["human_sample", 1]],
+      [
+        ["heroin", 5],
+        ["oxycodone", 10],
+        ["tramadol", 15],
+        ["diazepam", 15],
+        ["codeine", 20],
+        ["poppy_pain", 20]
+      ],
+      [
+        ["lsd", 5],
+        ["prozac", 10],
+        ["thorazine", 10],
+        ["adderall", 10],
+        ["xanax", 10],
+        ["pills_sleep", 10],
+        ["poppy_sleep", 15]
+      ],
+      [
+        ["vitamins", 5],
+        ["iodine", 5],
+        ["disinfectant", 3],
+        ["protein_powder", 20]
+      ]
+    ],
+    "flags": ["SECRET"]
+  },
+  {
+    "result": "mutagen_lizard",
+    "type": "recipe",
+
+    "activity_level": "LIGHT_EXERCISE",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "chemistry",
+    "skills_required": ["firstaid", 1],
+
+    "difficulty": 7,
+    "time": "45 m",
+    "batch_time_factors": [80, 20],
+
+    "book_learn": [["recipe_animal", 6]],
+
+    "proficiencies": [
+      { "proficiency": "prof_intro_chemistry" },
+      { "proficiency": "prof_organic_chemistry" },
+      { "proficiency": "prof_intro_chem_synth" },
+      { "proficiency": "prof_chem_synth" }
+    ],
+
+    "using": [["mutagen_production_standard", 25]],
+    "//components": [
+      "`bfipowder` 4× → 3×",
+      "assuming the requirement was volume, not mass"
+    ],
+    "components": [
+      [["mutagen", 1]],
+      [["lizard_sample", 1]],
+      [["egg_reptile", 1]],
+      [
+        ["bfipowder", 3],
+        ["lizard_sample", 1]
+      ]
+    ],
+
+    "flags": ["SECRET"]
+  }
+]
