@@ -1,0 +1,105 @@
+[
+  {
+    "id": "cloth_antiseptic",
+    "type": "GENERIC",
+    "category": "drugs",
+
+    "//sources": [
+      [
+        "https://www.amazon.com/Misscrafts-inches-Cotton-Squares-Quilting/dp/B074DRF2GC",
+        "price reference"
+      ]
+    ],
+
+    "//notes": [
+      "weight and volume copied from `cotton_patchwork`",
+      "easier to do that than to `copy-from` and reset some of the properties (like `qualities`)"
+    ],
+
+    "name": {
+      "str": "antiseptic-soaked cloth"
+    },
+    "description": "A piece of cotton cloth soaked in antiseptic.  While much of the antiseptic is likely to dry up before you can get a lot of use from it, it's surprisingly effective in reaching deeper wounds.",
+
+    "weight": "5 g",
+    "volume": "6 ml",
+
+    "material": ["cotton", "isopropyl"],
+
+    "symbol": ",",
+    "color": "white",
+
+    "use_action": {
+      "type": "heal",
+
+      "disinfectant_power": 2,
+      "bite": 0.65,
+
+      "move_cost": 6000,
+
+      "used_up_item": {
+        "id": "cotton_patchwork",
+        "quantity": 1,
+        "flags": ["FILTHY"]
+      }
+    },
+
+    "flags": ["SINGLE_USE"],
+
+    "//price": [
+      "$22.79 / 200 pieces of 6 × 6 in. cloth ≈ $0.11 / piece",
+      "plus $3.19 / 1 fl oz of antiseptic (as per the recipe)"
+    ],
+    "price": "330 cent",
+    "price_postapoc": "50 cent"
+  },
+  {
+    "id": "cotton_balls_antiseptic",
+    "type": "GENERIC",
+    "category": "drugs",
+
+    "//sources": [
+      [
+        "https://www.amazon.com/Diane-100-Cotton-Balls-DEE051/dp/B09GTPR2QH",
+        "price reference"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "antiseptic-soaked cotton balls"
+    },
+    "description": "Fluffy balls of clean white cotton.  Now that they've been soaked with antiseptic, they are somewhat useful to disinfect a shallow wound.",
+
+    "weight": "25 g",
+    "volume": "30 ml",
+
+    "material": ["cotton", "isopropyl"],
+
+    "symbol": "*",
+    "color": "white",
+
+    "use_action": {
+      "type": "heal",
+
+      "disinfectant_power": 3,
+      "bite": 0.4,
+
+      "move_cost": 6000,
+
+      "used_up_item": {
+        "id": "cotton_ball",
+        "quantity": 1,
+        "flags": ["FILTHY"]
+      }
+    },
+
+    "flags": ["SINGLE_USE"],
+
+    "//price": [
+      "$0.065 / ball",
+      "plus $3.19 / 3 for the antiseptic (per recipe)"
+    ],
+    "price": "113 cent",
+    "price_postapoc": "50 cent"
+  }
+]
