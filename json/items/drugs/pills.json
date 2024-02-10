@@ -14,16 +14,19 @@
     ],
 
     "//notes": [
-      "oral form of vancomycin is not normally absorbed by the body and only works in the intenstines",
-      "dosage is noted in most cases to the 4 times a day, making one dose last ~6 hours, not 12",
-      "serious side effects include hearing loss and ears ringing, as well as nausea",
-      "having low chance of curing an infection is not at all how narrow-spectrum antibiotics work, but for now, this is the best we can do"
+      "this one is made by Akorn",
+      [
+        "oral form of vancomycin is not normally absorbed by the body and only works in the intenstines",
+        "dosage is noted in most cases to the 4 times a day, making one dose last ~6 hours, not 12",
+        "serious side effects include hearing loss and ears ringing, as well as nausea",
+        "having low chance of curing an infection is not at all how narrow-spectrum antibiotics work, but for now, this is the best we can do"
+      ]
     ],
 
     "name": {
       "str_sp": "vancomycin"
     },
-    "description": "A gelatin capsule, blue cap over a salmon-colored body, with a popular narrow-spectrum antibiotic; product of Akorn.  On one of the sides,  \"742\" is imprinted, along with \"250 mg\", indicating the dosage; the other side is without an imprint.  Has a low chance to stifle or cure bacterial infections.  One dose lasts 12 hours.",
+    "description": "A popular narrow-spectrum antibiotic contained inside an opaque gelatin capsule.  The capsule has a blue cap and a salmon-colored body.  On one of the sides, \"742\" is imprinted, along with \"250 mg\", indicating the dosage.  Has a low chance to stifle or cure bacterial infections.  One dose lasts 12 hours.",
 
     "//variants": [
       "sold commercially as Vancomycin Hydrochloride, including by Akorn"
@@ -57,10 +60,12 @@
       ]
     ],
 
+    "//notes": ["manufactured by Actavis"],
+
     "name": {
       "str_sp": "minocycline"
     },
-    "description": "A gelatin capsule, gray cap over a yellow body, with a broad-spectrum antibiotic; product of Actavis.  Around the cap,  \"MINOCYCLINE 100\" is imprinted, indicating the dosage; on the body, \"DAN 5695\".  It is very effective against bacterial infection, boosting your chances of recovery significantly.  One dose lasts 12 hours.",
+    "description": "A broad-spectrum antibiotic contained inside an opaque gelatin capsule.  The capsule has a gray cap and a yellow body.  Around the cap, \"MINOCYCLINE 100\" is imprinted, indicating the dosage. On the body, the imprint says \"DAN 5695\".  It is very effective against bacterial infection, boosting your chances of recovery significantly.  One dose lasts 12 hours.",
 
     "//variants": [
       "appears to be sold as Minocycline commercially by Actavis",
@@ -91,10 +96,12 @@
       ["https://www.drugs.com/imprints/nl-771-250-26781.html", "appearance"]
     ],
 
+    "//notes": ["product of Lupin"],
+
     "name": {
       "str_sp": "flucytosine"
     },
-    "description": "A gelatin capsule, blue cap over an off-white body, with a powerful antifungal drug; product of Lupin.  Around the cap, \"NL771\" is imprinted; on the body, \"250\", indicating the dosage.  It is very effective against fungal infections, boosting your chances of recovery significantly.  One dose lasts 12 hours.",
+    "description": "A powerful antifungal drug inside an opaque gelatin capsule.  The capsule has a blue cap and an off-white body.  Around the cap, \"NL771\" is imprinted.  On the body, the print says \"250\", indicating the dosage.  It is very effective against fungal infections, boosting your chances of recovery significantly.  One dose lasts 12 hours.",
 
     "//variants": [
       "commerically sold by Valeant(?) as Ancobon",
@@ -134,10 +141,12 @@
       ]
     ],
 
+    "//notes": ["product of Eli Lilly"],
+
     "name": {
       "str_sp": "Prozac"
     },
-    "description": "A gelatin capsule, light-green cap over a yellowish-white body, with a prescription-grade antidepressant; product of Eli Lilly.  On both the body and the cap, \"Lilly 3105\" is imprinted.  It offsets the mood negatives of a depression.  It has a small potential for forming a habit.",
+    "description": "A prescription-grade antidepressant inside an opaque gelatin capsule.  The capsule has a light-green cap and a yellowish-white body.  On both the body and the cap, \"Lilly 3105\" is imprinted.  The drug offsets the mood negatives of a depression.  Caution is advised when taking the antidepressant, as it has potential for forming a habit.",
 
     "//variants": [
       "available generically as fluoxetine",
