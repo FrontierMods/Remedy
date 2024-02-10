@@ -12,6 +12,7 @@
     ],
 
     "//notes": [
+      "product of GSK",
       "vomiting is one of the possible side effects",
       "noted to increase likelihood of headaches",
       "has anti-coagulant properties"
@@ -20,7 +21,7 @@
     "name": {
       "str_sp": "Augmentin"
     },
-    "description": "An off-white oval tablet with a popular extended-spectrum antibiotic; product of GSK.  On one side,  \"AUGMENTIN\" is imprinted; on the other, \"500 / 125\", indicating the dosage of its two components: amoxicillin (500 mg) and clavulanic acid (125 mg).  Has a moderate effect on bacterial infections.  One dose lasts 12 hours.",
+    "description": "A popular extended-spectrum antibiotic in the form of an oval tablet.  On one side,  \"AUGMENTIN\" is imprinted; on the other, \"500 / 125\", indicating the dosage of its two main components: amoxicillin and clavulanic acid.  Has a moderate effect on bacterial infections.  One dose lasts 12 hours.",
 
     "weight": "625 mg",
 
@@ -39,20 +40,22 @@
     "comestible_type": "MED",
 
     "//sources": [
-      "https://gskpro.com/en-ng/deeplink/augmentin/",
+      "https://en.wikipedia.org/wiki/Albendazole",
       ["https://www.drugs.com/price-guide/albendazole", "price"],
       ["https://www.drugs.com/imprints/v32-28411.html", "appearance"]
     ],
 
     "//notes": [
+      "produced by Camber",
       "antihelmintic, rather than strictly antiparasitic",
-      "nitazoxanide would be the broad-spectrum equivalent, having an effect on a wide variety of parasites"
+      "nitazoxanide would be the broad-spectrum equivalent, having an effect on a wide variety of parasites",
+      "known to cause nausea and headaches as side effects"
     ],
 
     "name": {
       "str_sp": "albendazole"
     },
-    "description": "An off-white oval tablet with a popular extended-spectrum antibiotic; product of GSK.  On one side,  \"AUGMENTIN\" is imprinted; on the other, \"500 / 125\", indicating the dosage of its two components: amoxicillin (500 mg) and clavulanic acid (125 mg).  Has a moderate effect on bacterial infections.  One dose lasts 12 hours.",
+    "description": "A potent broad-spectrum antihelmintic (antiparasitic with a focus on worms and larvae) in the form of a white tablet.  On one side of the tablet, \"V 32\" is etched.  Originally designed for use in animals, it had been approved for humans soon after.",
 
     "weight": "200 mg",
 
