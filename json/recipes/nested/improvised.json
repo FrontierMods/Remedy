@@ -15,8 +15,8 @@
     "activity_level": "MODERATE_EXERCISE",
 
     "nested_category_data": [
-      "trauma_dressing_improvised",
       "bandage_pressure_improvised",
+      "trauma_dressing_improvised",
       "trauma_dressing_hemostatic_improvised"
     ]
   }
