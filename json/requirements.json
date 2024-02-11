@@ -32,16 +32,11 @@
   },
 
   {
-    "id": "tourniquet_securing",
+    "id": "tourniquet_securing_short",
     "type": "requirement",
 
     "//": "something to secure the windlass in place after applying the pressure",
 
-    "components": [
-      [
-        ["rope_any_short", 1, "LIST"],
-        ["cordage", 1, "LIST"]
-      ]
-    ]
+    "components": [[["cordage_short", 1, "LIST"]]]
   }
 ]
