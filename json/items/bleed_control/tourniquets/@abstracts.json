@@ -1,0 +1,66 @@
+[
+  {
+    "abstract": "tourniquet_improvised",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str_sp": "improvised tourniquet"
+    },
+    "description": "An improvised device for stopping severe bleeding on a limb.  While not easy to use, more so because it's improvised, in an emergency it may save your life.  It is currently wide enough for use on an average adult's arm.  Activate to adjust size and location.",
+
+    "warmth": 1,
+
+    "symbol": "{",
+    "color": "red",
+    "looks_like": "tourniquet_upper",
+
+    "sided": true,
+
+    "flags": ["WATER_FRIENDLY", "OUTER", "TOURNIQUET", "OVERSIZE", "UNDERSIZE"],
+
+    "price": "1 USD",
+    "price_postapoc": "15 cent"
+  },
+
+  {
+    "abstract": "tourniquet_improvised_arm",
+    "copy-from": "tourniquet_improvised",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str_sp": "improvised tourniquet (arm)"
+    },
+    "description": "An improvised device for stopping severe bleeding on a limb.  While not easy to use, more so because it's improvised, in an emergency it may save your life.  It is currently wide enough for use on an average adult's arm.  Activate to adjust for placing on a leg.",
+
+    "armor": [
+      {
+        "encumbrance": 90,
+
+        "coverage": 3,
+        "covers": ["arm_l", "arm_r"]
+      }
+    ]
+  },
+  {
+    "abstract": "tourniquet_improvised_leg",
+    "copy-from": "tourniquet_improvised",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str_sp": "improvised tourniquet (leg)"
+    },
+    "description": "An improvised device for stopping severe bleeding on a limb.  While not easy to use, more so because it's improvised, in an emergency it may save your life.  It is currently wide enough for use on an average adult's leg.  Activate to adjust for placing on an arm.",
+
+    "armor": [
+      {
+        "encumbrance": 90,
+
+        "coverage": 3,
+        "covers": ["leg_l", "leg_r"]
+      }
+    ]
+  }
+]

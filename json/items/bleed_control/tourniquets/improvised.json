@@ -1,0 +1,76 @@
+[
+  {
+    "id": "tourniquet_improvised_arm_tshirt_chopsticks",
+    "copy-from": "tourniquet_improvised_arm",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str": "improvised tourniquet (arm)",
+      "str_pl": "improvised tourniquets (arm)"
+    },
+    "description": "An improvised device for stopping severe bleeding on a limb.  While not easy to use, more so because it's improvised, in an emergency it may save your life.  It is intended to be put on an arm, though it can accomodate any size.  Activate to adjust positioning to legs.",
+
+    "//weight": "weight of t-shirt (110 g) + chopsticks (11 g) + 6 × short string (6 × 6 = 36 g)",
+    "weight": "157 g",
+    "//volume": "volume of t-shirt (500 ml) + chopsticks (40 ml) + 6 × short string (6 × 10 = 60 ml)",
+    "volume": "600 ml",
+
+    "material": ["cotton", "wood"],
+
+    "armor": [
+      {
+        "encumbrance": 90,
+
+        "coverage": 3,
+        "covers": ["arm_l", "arm_r"]
+      }
+    ],
+
+    "use_action": {
+      "type": "transform",
+      "target": "tourniquet_improvised_leg_tshirt_chopsticks",
+
+      "menu_text": "Adjust",
+
+      "msg": "You adjust the tourniquet."
+    }
+  },
+  {
+    "id": "tourniquet_improvised_leg_tshirt_chopsticks",
+    "copy-from": "tourniquet_improvised_leg",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "name": {
+      "str": "improvised tourniquet (leg)",
+      "str_pl": "improvised tourniquets (leg)"
+    },
+    "description": "An improvised device for stopping severe bleeding on a limb.  While not easy to use, more so because it's improvised, in an emergency it may save your life.  It is intended to be put on a leg, though it can accomodate any size.  Activate to adjust positioning to arms.",
+
+    "//weight": "weight of t-shirt (110 g) + chopsticks (11 g) + 6 × short string (6 × 6 = 36 g)",
+    "weight": "157 g",
+    "//volume": "volume of t-shirt (500 ml) + chopsticks (40 ml) + 6 × short string (6 × 10 = 60 ml)",
+    "volume": "600 ml",
+
+    "material": ["cotton", "wood"],
+
+    "armor": [
+      {
+        "encumbrance": 90,
+
+        "coverage": 3,
+        "covers": ["leg_l", "leg_r"]
+      }
+    ],
+
+    "use_action": {
+      "type": "transform",
+      "target": "tourniquet_improvised_arm_tshirt_chopsticks",
+
+      "menu_text": "Adjust",
+
+      "msg": "You adjust the tourniquet."
+    }
+  }
+]

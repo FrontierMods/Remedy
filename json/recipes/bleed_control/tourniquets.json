@@ -1,0 +1,43 @@
+[
+  {
+    "result": "tourniquet_improvised_arm_tshirt_chopsticks",
+    "type": "recipe",
+
+    "//components": [
+      [
+        "this study suggests that two chopsticks as a single windlass is sufficient",
+        "also indicates that anywhere between 2 and 4 pencils would make for a good windlass",
+        "https://pubmed.ncbi.nlm.nih.gov/25771027/"
+      ],
+      [
+        "this article presents scissors and medical shears as an option",
+        "https://www.teessidefirstaid.com/improvised-tourniquets/",
+        "a different recipe might be necessary, judging by the appearance of this kind of windlass use in the article"
+      ],
+      [
+        "this article says that flashlights and magazines are ill-advised because they may be required elsewhere, but this is a survival situation",
+        "https://www.crisis-medicine.com/improvised-tourniquets-good-to-have-an-alternate-plan/"
+      ],
+      "pocket knife is added on the assumption that it's generally closed and will thus not cut the securing material",
+      "pipe and copper pipe might be good candidates, but may require a separate recipe/model due to their weight and size"
+    ],
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "activity_level": "NO_EXERCISE",
+
+    "skill_used": "firstaid",
+    "difficulty": 3,
+    "autolearn": true,
+    "reversible": true,
+
+    "time": "30 s",
+
+    "using": [
+      ["tourniquet_materials_clothes_tshirts", 1],
+      ["tourniquet_securing", 1]
+    ],
+    "components": [[["chopsticks", 1]]]
+  }
+]

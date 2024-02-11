@@ -12,5 +12,36 @@
         ["methed_alcohol", 100]
       ]
     ]
+  },
+
+  {
+    "id": "tourniquet_materials_clothes_tshirts",
+    "type": "requirement",
+
+    "//": "only the t-shirts that are the same size and weight",
+
+    "components": [
+      [
+        ["tshirt", 1],
+        ["tshirt_tour", 1],
+        ["linuxtshirt", 1],
+        ["postman_shirt", 1],
+        ["tshirt_text", 1]
+      ]
+    ]
+  },
+
+  {
+    "id": "tourniquet_securing",
+    "type": "requirement",
+
+    "//": "something to secure the windlass in place after applying the pressure",
+
+    "components": [
+      [
+        ["rope_any_short", 1, "LIST"],
+        ["cordage", 1, "LIST"]
+      ]
+    ]
   }
 ]
