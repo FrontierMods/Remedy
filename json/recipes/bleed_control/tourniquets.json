@@ -36,7 +36,7 @@
 
     "using": [
       ["tourniquet_materials_clothes_tshirts", 1],
-      ["tourniquet_securing", 1]
+      ["tourniquet_securing_short", 1]
     ],
     "components": [[["chopsticks", 1]]]
   }
