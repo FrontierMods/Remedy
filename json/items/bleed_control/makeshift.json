@@ -19,11 +19,6 @@
 
     "weight": "9500 mg",
     "volume": "12 ml",
-    "//longest_side": [
-      "actual longest side when laid out flat: 24 in. = 609.6 mm",
-      "we assume roll fold, where the height (3 in. = 76.2 mm) will be the longest side"
-    ],
-    "longest_side": "76 mm",
 
     "material": ["cotton"],
 
