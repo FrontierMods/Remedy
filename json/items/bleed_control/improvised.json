@@ -46,9 +46,9 @@
     },
     "description": "A sterile gauze pad held firmly in place by medical tape wrapping around the limb.  The application of strong pressure, while generally not recommended with medical tape, aids in stemming severe bleeding in an emergency.  Not quite as effective as commercial options, this may save your life in a survival situation.",
 
-    "//weight": "weight of 6× 5-in. strips of medical tape + a gauze pad",
+    "//weight": "weight of 6 × 5″ strips of medical tape + a gauze pad",
     "weight": "45 g",
-    "//volume": "volume of 6× 5-in. strips of medical tape + a gauze pad",
+    "//volume": "volume of 6 × 5″ strips of medical tape + a gauze pad",
     "volume": "10 ml",
 
     "material": ["cotton"],
