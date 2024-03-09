@@ -1,0 +1,19 @@
+[
+  {
+    "id": "nested_group_tourniquets",
+    "type": "nested_category",
+
+    "name": "improvised tourniquets",
+    "description": "Recipes that create improvised arterial bleed-control devices.",
+
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+
+    "skill_used": "firstaid",
+    "difficulty": 1,
+
+    "activity_level": "MODERATE_EXERCISE",
+
+    "nested_category_data": ["tourniquet_improvised_arm_tshirt_chopsticks"]
+  }
+]
