@@ -29,7 +29,9 @@
       "surface": "point",
       "balance": "neutral"
     },
-    "cutting": 2,
+    "melee_damage": {
+      "stab": 6
+    },
 
     "//material": "steel should be stainless",
     "material": ["hc_steel", "plastic"],
@@ -45,7 +47,7 @@
       ["FABRIC_CUT", 2]
     ],
 
-    "flags": ["STAB", "SHEATH_KNIFE"],
+    "flags": ["SHEATH_KNIFE"],
 
     "price": "12 USD",
     "price_postapoc": "10 cent"
