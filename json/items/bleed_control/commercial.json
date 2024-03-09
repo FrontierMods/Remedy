@@ -54,7 +54,7 @@
       "move_cost": 1500
     },
 
-    "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
+    "flags": ["NO_INGEST", "EDIBLE_FROZEN", "NO_REPAIR"],
 
     "price": "145 cent",
     "price_postapoc": "10 cent"
@@ -113,7 +113,7 @@
       "move_cost": 450
     },
 
-    "flags": ["NO_INGEST", "EDIBLE_FROZEN"],
+    "flags": ["NO_INGEST", "EDIBLE_FROZEN", "NO_REPAIR"],
 
     "//price": [
       "108 USD for a case, 72 boxes / case, 50 bandages / box",
@@ -183,6 +183,8 @@
     ],
     "count": 72,
 
+    "flags": ["NO_REPAIR"],
+
     "price": "363 cent",
     "price_postapoc": "10 cent"
   },
@@ -245,6 +247,8 @@
       "good-quality pads avoid sticking to the skin in order to not disturb the wound when the first-aid bandage is pulled away"
     ],
 
+    "flags": ["NO_REPAIR"],
+
     "//price": "$3.50 / 100 pads in a box = 3.5¢ ≈ 4¢",
     "price": "4 cent",
     "price_postapoc": "1 cent"
@@ -300,7 +304,8 @@
       "NO_INGEST",
       "IRREPLACEABLE_CONSUMABLE",
       "WATER_DISSOLVE",
-      "EDIBLE_FROZEN"
+      "EDIBLE_FROZEN",
+      "NO_REPAIR"
     ],
 
     "price": "17 USD",
@@ -352,6 +357,8 @@
       "move_cost": 900
     },
 
+    "flags": ["NO_REPAIR"],
+
     "price": "639 cent",
     "price_postapoc": "20 cent"
   },
@@ -397,6 +404,8 @@
 
       "move_cost": 1900
     },
+
+    "flags": ["NO_REPAIR"],
 
     "price": "22 USD",
     "price_postapoc": "25 cent"
