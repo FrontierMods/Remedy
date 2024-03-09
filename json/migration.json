@@ -1,5 +1,11 @@
 [
   {
+    "id": ["scissors_medical"],
+    "type": "MIGRATION",
+    "replace": "scissors_medical_nar"
+  },
+
+  {
     "id": ["tourniquet_upper"],
     "type": "MIGRATION",
     "replace": "tourniquet_nar_arm"
