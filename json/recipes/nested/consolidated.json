@@ -4,7 +4,7 @@
     "type": "nested_category",
 
     "name": "bleed control",
-    "description": "Recipes that create items used to stop or slow blood loss.",
+    "description": "Recipes that create items used to stem blood loss.",
 
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MEDICAL",
