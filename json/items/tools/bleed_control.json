@@ -56,7 +56,6 @@
 
     "ammo": ["suture"],
 
-    "stackable": true,
     "count": 1750,
 
     "pocket_data": [
@@ -82,8 +81,6 @@
     "charges_per_use": 1,
 
     "qualities": [["SEW_SURGICAL", 1]],
-
-    "flags": ["STAB"],
 
     "//price": "$25.20 / 12 needles = $2.1 / needle",
     "price": "210 cent",
