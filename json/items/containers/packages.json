@@ -197,7 +197,7 @@
     "name": {
       "str": "alcohol wipe sachet"
     },
-    "description": "A small white tear-open packet with green lettering.  After the logo of the manufacturer, BD, the larger text says \"ALCOHOL SWAB\", followed by smaller.  On the back, there are instructions for application of the hemostatic trauma dressing it contains.",
+    "description": "A small white tear-open packet with green lettering.  After the logo of the manufacturer, BD, the larger text says \"ALCOHOL SWAB\", followed by smaller text.  On the back, there are instructions for application of the hemostatic trauma dressing it contains.",
 
     "//weight": [
       "we presume that the weight in source is that of the whole package (wipe and sachet), rather than just the wipe",
