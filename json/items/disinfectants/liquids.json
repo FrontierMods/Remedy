@@ -43,6 +43,8 @@
     "freezing_point": -56,
     "phase": "liquid",
 
+    "charges": 4,
+    "stack_size": 4,
     "container": "bottle_plastic_spray_4oz",
 
     "use_action": {

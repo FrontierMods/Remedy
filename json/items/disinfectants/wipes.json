@@ -42,10 +42,10 @@
           "trim is to account for the size of the package",
           "we presume that listed are the dimensions of the package, rather than the swab"
         ],
-        "volume is per `count`"
+        "volume is meant to be 0.476 × 17 = 8.092 ml"
       ]
     },
-    "volume": "3 ml",
+    "volume": "1 ml",
 
     "material": [
       {
@@ -65,7 +65,6 @@
     "symbol": ",",
     "color": "white",
 
-    "count": 7,
     "container": "package_alcohol_wipe_bd",
 
     "use_action": {
