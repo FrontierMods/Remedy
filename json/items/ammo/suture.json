@@ -19,8 +19,9 @@
       "size 4-0, to match the needle",
       [
         "for the purposes of the amount of charges, we assume that an average wound is 50 mm in length",
-        "from that, placing 6 stitches roughly 10 mm apart yields 300 mm of suture required per wound",
-        "we assume this, rather than the stated 18 in. ≈ 457 mm to be the length of a single instance of suture"
+        "from that, placing 9 stitches roughly 10 mm apart yields 450 mm of suture required per wound",
+        "we use the stated 18 in. ≈ 457 mm to be the length of a single instance of suture, since it is close-enough to the desired length",
+        "using shorter lengths per instance could be a valid approach to 'minimal', survivalist stiching intended to save materials where possible"
       ]
     ],
 
@@ -29,17 +30,17 @@
     },
     "description": "A length of thin, clear polymer that is used as medical thread for wound closure.  This suture is made of Monocryl: an absorbable material that will completely dissipate after a few weeks after being used.  Can be used along with a suture needle to close skin wounds.",
 
-    "//weight": "volume per instance (5.3 µl) × density (1.07 g/cm3) = 5.67 mg ≈ 6 mg",
-    "weight": "6 mg",
+    "//weight": "volume per instance (8.076 µl) × density (1.07 g/cm3) = 8.641 mg",
+    "weight": "9 mg",
     "//dimensions": {
-      "length": "300 mm",
+      "length": "457 mm",
       "diameter": "0.15 mm",
-      "raw": "5.3 µl",
+      "raw": "8.076 µl",
       "trim": 0
     },
     "//volume": [
-      "volume per 200 instances of suture",
-      "5.3 × 200 = 1060 µl ≈ 1 ml"
+      "volume per 124 instances of suture",
+      "1 ml / 8.076 μl = 123.8258734712 ≈ 124"
     ],
     "volume": "1 ml",
 
@@ -51,18 +52,18 @@
 
     "ammo_type": "suture",
 
-    "count": 200,
-    "stack_size": 200,
+    "count": 124,
+    "stack_size": 124,
 
     "flags": ["NO_SALVAGE"],
 
     "//price": [
-      "$60 / 12 [boxes of 18 in. of thread]",
+      "$60 / 12 boxes of 18 in. of thread",
       "12 × 18 in. = 216 in. = 5486.4 mm",
-      "5486.4 / 300 [mm per single instance] = 18.288 instances",
-      "60 / 18.288 = $3.28 / instance"
+      "5486.4 mm / 457 mm per single instance = 12.0052516411 instances ≈ 12 instances",
+      "60 / 12 = $5 / instance"
     ],
-    "price": "328 cent",
+    "price": "5 USD",
     "price_postapoc": "33 cent"
   }
 ]
