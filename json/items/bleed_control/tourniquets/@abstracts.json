@@ -1,8 +1,7 @@
 [
   {
     "abstract": "tourniquet_improvised",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
+    "type": "ARMOR",
 
     "name": {
       "str_sp": "improvised tourniquet"
@@ -17,7 +16,7 @@
 
     "sided": true,
 
-    "flags": ["WATER_FRIENDLY", "OUTER", "TOURNIQUET", "OVERSIZE", "UNDERSIZE"],
+    "flags": ["WATER_FRIENDLY", "OUTER", "TOURNIQUET", "FIT"],
 
     "price": "1 USD",
     "price_postapoc": "15 cent"
@@ -26,8 +25,7 @@
   {
     "abstract": "tourniquet_improvised_arm",
     "copy-from": "tourniquet_improvised",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
+    "type": "ARMOR",
 
     "name": {
       "str_sp": "improvised tourniquet (arm)"
@@ -46,8 +44,7 @@
   {
     "abstract": "tourniquet_improvised_leg",
     "copy-from": "tourniquet_improvised",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
+    "type": "ARMOR",
 
     "name": {
       "str_sp": "improvised tourniquet (leg)"

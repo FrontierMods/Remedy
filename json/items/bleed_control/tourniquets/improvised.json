@@ -2,8 +2,7 @@
   {
     "id": "tourniquet_improvised_arm_tshirt_chopsticks",
     "copy-from": "tourniquet_improvised_arm",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
+    "type": "ARMOR",
 
     "name": {
       "str": "improvised tourniquet (arm)",
@@ -39,8 +38,7 @@
   {
     "id": "tourniquet_improvised_leg_tshirt_chopsticks",
     "copy-from": "tourniquet_improvised_leg",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
+    "type": "ARMOR",
 
     "name": {
       "str": "improvised tourniquet (leg)",
