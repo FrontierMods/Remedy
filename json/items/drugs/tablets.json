@@ -25,6 +25,8 @@
 
     "weight": "625 mg",
 
+    "charges": 1,
+
     "use_action": {
       "type": "ANTIBIOTIC"
     },
@@ -55,12 +57,19 @@
     "name": {
       "str_sp": "albendazole"
     },
-    "description": "A potent broad-spectrum antihelmintic (antiparasitic with a focus on worms and larvae) in the form of a white tablet.  On one side of the tablet, \"V 32\" is etched.  Originally designed for use in animals, it had been approved for humans soon after.",
+    "description": "A potent broad-spectrum antihelmintic (antiparasitic against worms and larvae) in the form of a white tablet.  On one side of the tablet, \"V 32\" is etched.  Originally designed for use in animals, it had been approved for humans soon after.",
 
-    "weight": "200 mg",
+    "//weight": [
+      "based on tablets of albendazole which are produced in India",
+      "https://www.researchgate.net/figure/Weight-Variation-of-Troyzole-Brand-Albendazole-Tablets_tbl3_366562857",
+      "assumes 400-mg formulation",
+      "takes the average of two higher-weight brands (Olworm and Troyzole)"
+    ],
+    "weight": "984 mg",
 
     "//variants": ["also sold under the trade name Albenza"],
 
+    "charges": 1,
     "//container": [
       "sold as two tablets per bottle",
       "https://www.camberpharma.com/products/albendazole/",

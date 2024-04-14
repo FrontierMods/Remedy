@@ -76,7 +76,7 @@
       "height": "6.81 mm",
       "raw": "0.43 ml",
       "trim": 0.05,
-      "notes": ["volume is per `count`"]
+      "notes": ["volume is per `stack_size`"]
     },
     "volume": "2 ml",
     "longest_side": "12 mm",
@@ -88,8 +88,8 @@
 
     "container": "bottle_plastic_tablets_150",
 
-    "count": 5,
     "stackable": true,
+    "stack_size": 5,
 
     "flags": [
       "NPC_SAFE",

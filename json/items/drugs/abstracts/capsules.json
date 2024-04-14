@@ -62,14 +62,13 @@
       "diameter": "6.96 mm",
       "raw": "0.73 ml",
       "trim": 0.2,
-      "notes": ["volume is per `count` stack"]
+      "notes": ["volume is per `stack_size`"]
     },
     "volume": "7 ml",
     "longest_side": "19 mm",
 
     "container": "package_blister_capsules_size_0_10",
-
-    "count": 12
+    "stack_size": 12
   },
   {
     "abstract": "capsule_size_2",
@@ -102,14 +101,13 @@
       "diameter": "6.39 mm",
       "raw": "0.56 ml",
       "trim": 0.2,
-      "notes": ["volume is per `count` stack"]
+      "notes": ["volume is per `stack_size`"]
     },
     "volume": "13 ml",
     "longest_side": "18 mm",
 
     "container": "package_blister_capsules_size_0_10",
-
-    "count": 29
+    "stack_size": 29
   },
   {
     "abstract": "capsule_size_3",
@@ -142,13 +140,12 @@
       "diameter": "5.85 mm",
       "raw": "0.42 ml",
       "trim": 0.1,
-      "notes": ["volume is per `count` stack"]
+      "notes": ["volume is per `stack_size`"]
     },
     "volume": "3 ml",
     "longest_side": "16 mm",
 
     "container": "package_blister_capsules_size_0_10",
-
-    "count": 8
+    "stack_size": 8
   }
 ]
