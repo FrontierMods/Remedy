@@ -31,19 +31,16 @@
       "width": "4 in",
       "height": "0.1 mm",
       "raw": "37.16 ml",
-      "trim": 0.1
+      "trim": 0
     },
-    "volume": "33 ml",
+    "volume": "37 ml",
+    "//longest_side": "4 in. = 101.6 mm",
     "longest_side": "102 mm",
 
     "material": ["cotton"],
 
     "symbol": "!",
     "color": "white",
-
-    "//charges": "presuming 1 yard of bandage gives enough support for a single wound dressing",
-    "charges": 12,
-    "stack_size": 6,
 
     "use_action": {
       "type": "heal",

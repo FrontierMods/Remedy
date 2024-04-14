@@ -11,9 +11,9 @@
     },
     "description": "An improvised device for stopping severe bleeding on a limb.  While not easy to use, more so because it's improvised, in an emergency it may save your life.  It is intended to be put on an arm, though it can accomodate any size.  Activate to adjust positioning to legs.",
 
-    "//weight": "weight of t-shirt (110 g) + chopsticks (11 g) + 6 × short string (6 × 6 = 36 g)",
+    "//weight": "weight of t-shirt (110 g) + chopsticks (11 g) + 6 × short string (6 × 6 g = 36 g)",
     "weight": "157 g",
-    "//volume": "volume of t-shirt (500 ml) + chopsticks (40 ml) + 6 × short string (6 × 10 = 60 ml)",
+    "//volume": "volume of t-shirt (500 ml) + chopsticks (40 ml) + 6 × short string (6 × 10 ml = 60 ml)",
     "volume": "600 ml",
 
     "material": ["cotton", "wood"],
