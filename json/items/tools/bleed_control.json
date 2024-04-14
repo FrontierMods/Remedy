@@ -46,8 +46,7 @@
     ],
     "longest_side": "15 mm",
 
-    "//material": "steel should be stainless",
-    "material": ["hc_steel"],
+    "material": ["stainless_steel"],
 
     "symbol": ",",
     "color": "light_red",
