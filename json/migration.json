@@ -95,9 +95,9 @@
     "replace": "flucytosine"
   },
   {
-    "id": ["antifungal"],
+    "id": ["antiparasitic"],
     "type": "MIGRATION",
-    "replace": "flucytosine"
+    "replace": "albendazole"
   },
 
   {
