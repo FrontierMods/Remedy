@@ -1,0 +1,32 @@
+[
+  {
+    "id": "EOC_Remedy_GIVE_HEALTH_EFFECT",
+    "type": "effect_on_condition",
+
+    "condition": { "expects_vars": ["effect_id", "intensity"] },
+    "effect": [
+      {
+        "math": [
+          "_new_intensity",
+          "=",
+          "u_effect_intensity( _effect_id ) + _intensity"
+        ]
+      },
+
+      {
+        "if": { "u_has_trait": "DEBUG_MOD_REPORTING" },
+        "then": [
+          {
+            "message": "[Remedy] Overall health effect intensity: <context_val:new_intensity>"
+          }
+        ]
+      },
+
+      {
+        "u_add_effect": { "context_val": "effect_id" },
+        "intensity": { "context_val": "new_intensity" },
+        "duration": { "math": ["rng(37, 97) * 60"] }
+      }
+    ]
+  }
+]
