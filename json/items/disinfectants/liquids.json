@@ -51,7 +51,7 @@
       "type": "heal",
 
       "disinfectant_power": 4,
-      "bite": 0.8,
+      "bite": 0.65,
 
       "move_cost": 3000
     },
